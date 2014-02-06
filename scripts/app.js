@@ -1,30 +1,30 @@
 (function ($) {
 
-  Friend = Backbone.Model.extend({
-    //Create a model to hold friend atribute
-    name: null
-  });
+  // Friend = Backbone.Model.extend({
+  //   //Create a model to hold friend atribute
+  //   name: null
+  // });
 
-  Friends = Backbone.Collection.extend({
-    //This is our Friends collection and holds our Friend models
-    initialize: function (models, options) {
-      this.bind("add", options.view.addFriendLi);
-      //Listen for new additions to the collection and call a view function if so
-    }
-  });
+  // Friends = Backbone.Collection.extend({
+  //   //This is our Friends collection and holds our Friend models
+  //   initialize: function (models, options) {
+  //     this.bind("add", options.view.addFriendLi);
+  //     //Listen for new additions to the collection and call a view function if so
+  //   }
+  // });
 
-  AppView = Backbone.View.extend({
-    el: $("body"),
+  HeaderView = Backbone.View.extend({
+    el: $("header"),
     initialize: function () {
       // this.friends = new Friends( null, { view: this });
       var data = {
-        "logo": "sup"
+        "logo": "Business Logo"
       };
-        var tmplString = $('#header').text();
-        var tmpl = doT.template(tmplString);
-        var text = tmpl(data);
-        console.log(text)
-        $('header').html(text);
+      var tmplString = $('#header').text();
+      var tmpl = doT.template(tmplString);
+      var text = tmpl(data);
+      // console.log(text);
+      this.$el.html(text);
       //Create a friends collection when the view is initialized.
       //Pass it a reference to this view to create a connection between the two
     }//,
@@ -44,6 +44,6 @@
     // }
   });
 
-  var appview = new AppView;
+  var appview = new HeaderView;
 
 })(jQuery);
