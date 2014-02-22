@@ -2,39 +2,77 @@
 
   var FT = FT || {};
 
-  // Friend = Backbone.Model.extend({
-  //   //Create a model to hold friend atribute
-  //   name: null
-  // });
+//GET TEMPLATE
+// FT.getTemplate = function () {
+//   $.ajax({
+//     url: '../templates/header.js',
+//     method: 'GET',
+//     async: false,
+//     success: function(tmpl) {
+//       tmplString = data;
+//     }
+//   });
 
-  // Friends = Backbone.Collection.extend({
-  //   //This is our Friends collection and holds our Friend models
-  //   initialize: function (models, options) {
-  //     this.bind("add", options.view.addFriendLi);
-  //     //Listen for new additions to the collection and call a view function if so
-  //   }
-  // });
+// };
 
+
+//RENDER ----------------------------------
+FT.Render = function (el, template, data) {
+
+  this.$el = $(el);
+  var tmplString = $(template).text();
+  var tmpl = doT.template(tmplString);
+  var text = tmpl(data);
+  this.$el.html(text);
+};
+
+//ROUTER ----------------------------------
 FT.Router = Backbone.Router.extend({
   routes: {
+    '' : 'home',
+    "/": 'home',
+    'about' : 'about',
+    'contact' : 'contact',
     'client' : 'client'
-  },
-  client: function() {
-    this.$el = $('#content');
-    var data = {
-      "logo": "Business Logo"
-    };
-    var tmplString = $('#client').text();
-    var tmpl = doT.template(tmplString);
-    var text = tmpl(data);
-    this.$el.html(text);
   }
 });
 
-FT.Router = new FT.Router();
+var router = new FT.Router();
+
+//Routes -----------------------------------
+
+router.on('route:home', function (){
+  var data = {
+    "data": "home data"
+  };
+  render: FT.Render('#content', '#home', data);
+});
+
+router.on('route:client', function (){
+  var data = {
+    "data": "client data"
+  };
+  render: FT.Render('#content', '#client', data);
+});
+
+router.on('route:about', function (){
+  var data = {
+    "data": "about data"
+  };
+  render: FT.Render('#content', '#about', data);
+});
+
+router.on('route:contact', function (){
+  var data = {
+    "data": "contact data"
+  };
+  render: FT.Render('#content', '#contact', data);
+});
+
 Backbone.history.start();
 
-FT.HeaderView = Backbone.View.extend({
+//PERSISTENT ELEMENTS ------------------------
+FT.Header = Backbone.View.extend({
   el: $("header"),
   initialize: function () {
     // this.friends = new Friends( null, { view: this });
@@ -44,27 +82,22 @@ FT.HeaderView = Backbone.View.extend({
     var tmplString = $('#header').text();
     var tmpl = doT.template(tmplString);
     var text = tmpl(data);
-    // console.log(text);
     this.$el.html(text);
-    //Create a friends collection when the view is initialized.
-    //Pass it a reference to this view to create a connection between the two
   }
-  // events: {
-  //   "click #add-friend":  "showPrompt",
-  // },
-  // showPrompt: function () {
-  //   var friend_name = prompt("Who is your friend?");
-  //   var friend_model = new Friend({ name: friend_name });
-  //   //Add a new friend model to our friend collection
-  //   this.friends.add( friend_model );
-  // },
-  // addFriendLi: function (model) {
-  //   //The parameter passed is a reference to the model that was added
-  //   $("#friends-list").append("<li>" + model.get('name') + "</li>");
-  //   //Use .get to receive attributes of the model
-  // }
 });
 
-var appview = new FT.HeaderView;
+FT.Nav = Backbone.View.extend({
+  el: $("nav"),
+  initialize: function () {
+    var data = {};
+    var tmplString = $('#nav').text();
+    var tmpl = doT.template(tmplString);
+    var text = tmpl(data);
+    this.$el.html(text);
+  }
+});
+
+var header = new FT.Header(),
+  nav = new FT.Nav();
 
 })(jQuery);

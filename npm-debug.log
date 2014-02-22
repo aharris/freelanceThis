@@ -1,0 +1,1368 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/local/Cellar/node/0.10.5/bin/node',
+1 verbose cli   '/usr/local/bin/npm',
+1 verbose cli   'install',
+1 verbose cli   'coffee-sprites' ]
+2 info using npm@1.2.18
+3 info using node@v0.10.5
+4 verbose read json /Users/Ashton/Dropbox/freelanceThis/package.json
+5 verbose read json /Users/Ashton/Dropbox/freelanceThis/node_modules/nib/package.json
+6 verbose read json /Users/Ashton/Dropbox/freelanceThis/package.json
+7 verbose cache add [ 'coffee-sprites', null ]
+8 verbose cache add name=undefined spec="coffee-sprites" args=["coffee-sprites",null]
+9 verbose parsed url { protocol: null,
+9 verbose parsed url   slashes: null,
+9 verbose parsed url   auth: null,
+9 verbose parsed url   host: null,
+9 verbose parsed url   port: null,
+9 verbose parsed url   hostname: null,
+9 verbose parsed url   hash: null,
+9 verbose parsed url   search: null,
+9 verbose parsed url   query: null,
+9 verbose parsed url   pathname: 'coffee-sprites',
+9 verbose parsed url   path: 'coffee-sprites',
+9 verbose parsed url   href: 'coffee-sprites' }
+10 silly lockFile 4492f696-coffee-sprites coffee-sprites
+11 verbose lock coffee-sprites /Users/Ashton/.npm/4492f696-coffee-sprites.lock
+12 silly lockFile 4492f696-coffee-sprites coffee-sprites
+13 silly lockFile 4492f696-coffee-sprites coffee-sprites
+14 verbose addNamed [ 'coffee-sprites', '' ]
+15 verbose addNamed [ null, '' ]
+16 silly lockFile b9e2fce7-coffee-sprites coffee-sprites@
+17 verbose lock coffee-sprites@ /Users/Ashton/.npm/b9e2fce7-coffee-sprites.lock
+18 silly addNameRange { name: 'coffee-sprites', range: '', hasData: false }
+19 verbose url raw coffee-sprites
+20 verbose url resolving [ 'https://registry.npmjs.org/', './coffee-sprites' ]
+21 verbose url resolved https://registry.npmjs.org/coffee-sprites
+22 info trying registry request attempt 1 at 00:54:23
+23 http GET https://registry.npmjs.org/coffee-sprites
+24 http 200 https://registry.npmjs.org/coffee-sprites
+25 silly registry.get cb [ 200,
+25 silly registry.get   { date: 'Sat, 22 Feb 2014 05:54:23 GMT',
+25 silly registry.get     server: 'CouchDB/1.5.0 (Erlang OTP/R16B)',
+25 silly registry.get     etag: '"8Q99D4W32MX97N1T6C43VL2NN"',
+25 silly registry.get     'content-type': 'application/json',
+25 silly registry.get     'cache-control': 'max-age=1',
+25 silly registry.get     'content-length': '44137',
+25 silly registry.get     'accept-ranges': 'bytes',
+25 silly registry.get     via: '1.1 varnish',
+25 silly registry.get     age: '2451',
+25 silly registry.get     'x-served-by': 'cache-v36-ASH',
+25 silly registry.get     'x-cache': 'MISS',
+25 silly registry.get     'x-cache-hits': '0',
+25 silly registry.get     'x-timer': 'S1393048463.740609884,VS0,VE70',
+25 silly registry.get     vary: 'Accept',
+25 silly registry.get     'keep-alive': 'timeout=10, max=50',
+25 silly registry.get     connection: 'Keep-Alive' } ]
+26 silly addNameRange number 2 { name: 'coffee-sprites', range: '', hasData: true }
+27 silly addNameRange versions [ 'coffee-sprites',
+27 silly addNameRange   [ '0.0.1',
+27 silly addNameRange     '0.0.2',
+27 silly addNameRange     '0.0.3',
+27 silly addNameRange     '0.0.4',
+27 silly addNameRange     '0.0.5',
+27 silly addNameRange     '0.0.6',
+27 silly addNameRange     '0.0.7',
+27 silly addNameRange     '0.0.8' ] ]
+28 verbose addNamed [ 'coffee-sprites', '0.0.8' ]
+29 verbose addNamed [ '0.0.8', '0.0.8' ]
+30 silly lockFile a7494e1a-coffee-sprites-0-0-8 coffee-sprites@0.0.8
+31 verbose lock coffee-sprites@0.0.8 /Users/Ashton/.npm/a7494e1a-coffee-sprites-0-0-8.lock
+32 silly lockFile 3cee7f4a-sprites-coffee-sprites-0-0-8-tgz https://registry.npmjs.org/coffee-sprites/-/coffee-sprites-0.0.8.tgz
+33 verbose lock https://registry.npmjs.org/coffee-sprites/-/coffee-sprites-0.0.8.tgz /Users/Ashton/.npm/3cee7f4a-sprites-coffee-sprites-0-0-8-tgz.lock
+34 verbose addRemoteTarball [ 'https://registry.npmjs.org/coffee-sprites/-/coffee-sprites-0.0.8.tgz',
+34 verbose addRemoteTarball   'b1952e31bf707c07071022d04da77f2a72132599' ]
+35 info retry fetch attempt 1 at 00:54:23
+36 verbose fetch to= /var/folders/58/l28nvmf109301z41ppn9j2w00000gn/T/npm-33234/1393048463898-0.4001031946390867/tmp.tgz
+37 http GET https://registry.npmjs.org/coffee-sprites/-/coffee-sprites-0.0.8.tgz
+38 http 200 https://registry.npmjs.org/coffee-sprites/-/coffee-sprites-0.0.8.tgz
+39 silly shasum updated bytes 10707
+40 info shasum b1952e31bf707c07071022d04da77f2a72132599
+40 info shasum /var/folders/58/l28nvmf109301z41ppn9j2w00000gn/T/npm-33234/1393048463898-0.4001031946390867/tmp.tgz
+41 verbose tar unpack /var/folders/58/l28nvmf109301z41ppn9j2w00000gn/T/npm-33234/1393048463898-0.4001031946390867/tmp.tgz
+42 silly lockFile 2596b409-63898-0-4001031946390867-package /var/folders/58/l28nvmf109301z41ppn9j2w00000gn/T/npm-33234/1393048463898-0.4001031946390867/package
+43 verbose lock /var/folders/58/l28nvmf109301z41ppn9j2w00000gn/T/npm-33234/1393048463898-0.4001031946390867/package /Users/Ashton/.npm/2596b409-63898-0-4001031946390867-package.lock
+44 silly lockFile 0ea2b261-63898-0-4001031946390867-tmp-tgz /var/folders/58/l28nvmf109301z41ppn9j2w00000gn/T/npm-33234/1393048463898-0.4001031946390867/tmp.tgz
+45 verbose lock /var/folders/58/l28nvmf109301z41ppn9j2w00000gn/T/npm-33234/1393048463898-0.4001031946390867/tmp.tgz /Users/Ashton/.npm/0ea2b261-63898-0-4001031946390867-tmp-tgz.lock
+46 silly gunzTarPerm modes [ '755', '644' ]
+47 silly gunzTarPerm extractEntry package.json
+48 silly gunzTarPerm extractEntry .npmignore
+49 silly gunzTarPerm extractEntry README.md
+50 silly gunzTarPerm extractEntry vendor/packer.growing.js
+51 silly gunzTarPerm extractEntry coffee/coffee-sprites.coffee
+52 silly gunzTarPerm extractEntry js/coffee-sprites.js
+53 verbose read json /var/folders/58/l28nvmf109301z41ppn9j2w00000gn/T/npm-33234/1393048463898-0.4001031946390867/package/package.json
+54 silly lockFile 2596b409-63898-0-4001031946390867-package /var/folders/58/l28nvmf109301z41ppn9j2w00000gn/T/npm-33234/1393048463898-0.4001031946390867/package
+55 silly lockFile 2596b409-63898-0-4001031946390867-package /var/folders/58/l28nvmf109301z41ppn9j2w00000gn/T/npm-33234/1393048463898-0.4001031946390867/package
+56 silly lockFile 0ea2b261-63898-0-4001031946390867-tmp-tgz /var/folders/58/l28nvmf109301z41ppn9j2w00000gn/T/npm-33234/1393048463898-0.4001031946390867/tmp.tgz
+57 silly lockFile 0ea2b261-63898-0-4001031946390867-tmp-tgz /var/folders/58/l28nvmf109301z41ppn9j2w00000gn/T/npm-33234/1393048463898-0.4001031946390867/tmp.tgz
+58 verbose from cache /var/folders/58/l28nvmf109301z41ppn9j2w00000gn/T/npm-33234/1393048463898-0.4001031946390867/package/package.json
+59 verbose tar pack [ '/Users/Ashton/.npm/coffee-sprites/0.0.8/package.tgz',
+59 verbose tar pack   '/var/folders/58/l28nvmf109301z41ppn9j2w00000gn/T/npm-33234/1393048463898-0.4001031946390867/package' ]
+60 verbose tarball /Users/Ashton/.npm/coffee-sprites/0.0.8/package.tgz
+61 verbose folder /var/folders/58/l28nvmf109301z41ppn9j2w00000gn/T/npm-33234/1393048463898-0.4001031946390867/package
+62 silly lockFile 2596b409-63898-0-4001031946390867-package /var/folders/58/l28nvmf109301z41ppn9j2w00000gn/T/npm-33234/1393048463898-0.4001031946390867/package
+63 verbose lock /var/folders/58/l28nvmf109301z41ppn9j2w00000gn/T/npm-33234/1393048463898-0.4001031946390867/package /Users/Ashton/.npm/2596b409-63898-0-4001031946390867-package.lock
+64 silly lockFile 7a5e4fe7-coffee-sprites-0-0-8-package-tgz /Users/Ashton/.npm/coffee-sprites/0.0.8/package.tgz
+65 verbose lock /Users/Ashton/.npm/coffee-sprites/0.0.8/package.tgz /Users/Ashton/.npm/7a5e4fe7-coffee-sprites-0-0-8-package-tgz.lock
+66 silly lockFile 2596b409-63898-0-4001031946390867-package /var/folders/58/l28nvmf109301z41ppn9j2w00000gn/T/npm-33234/1393048463898-0.4001031946390867/package
+67 silly lockFile 2596b409-63898-0-4001031946390867-package /var/folders/58/l28nvmf109301z41ppn9j2w00000gn/T/npm-33234/1393048463898-0.4001031946390867/package
+68 silly lockFile 7a5e4fe7-coffee-sprites-0-0-8-package-tgz /Users/Ashton/.npm/coffee-sprites/0.0.8/package.tgz
+69 silly lockFile 7a5e4fe7-coffee-sprites-0-0-8-package-tgz /Users/Ashton/.npm/coffee-sprites/0.0.8/package.tgz
+70 silly lockFile b149028b-npm-coffee-sprites-0-0-8-package /Users/Ashton/.npm/coffee-sprites/0.0.8/package
+71 verbose lock /Users/Ashton/.npm/coffee-sprites/0.0.8/package /Users/Ashton/.npm/b149028b-npm-coffee-sprites-0-0-8-package.lock
+72 silly lockFile b149028b-npm-coffee-sprites-0-0-8-package /Users/Ashton/.npm/coffee-sprites/0.0.8/package
+73 silly lockFile b149028b-npm-coffee-sprites-0-0-8-package /Users/Ashton/.npm/coffee-sprites/0.0.8/package
+74 verbose tar unpack /Users/Ashton/.npm/coffee-sprites/0.0.8/package.tgz
+75 silly lockFile b149028b-npm-coffee-sprites-0-0-8-package /Users/Ashton/.npm/coffee-sprites/0.0.8/package
+76 verbose lock /Users/Ashton/.npm/coffee-sprites/0.0.8/package /Users/Ashton/.npm/b149028b-npm-coffee-sprites-0-0-8-package.lock
+77 silly lockFile 7a5e4fe7-coffee-sprites-0-0-8-package-tgz /Users/Ashton/.npm/coffee-sprites/0.0.8/package.tgz
+78 verbose lock /Users/Ashton/.npm/coffee-sprites/0.0.8/package.tgz /Users/Ashton/.npm/7a5e4fe7-coffee-sprites-0-0-8-package-tgz.lock
+79 silly gunzTarPerm modes [ '755', '644' ]
+80 silly gunzTarPerm extractEntry package.json
+81 silly gunzTarPerm extractEntry .npmignore
+82 silly gunzTarPerm extractEntry README.md
+83 silly gunzTarPerm extractEntry coffee/coffee-sprites.coffee
+84 silly gunzTarPerm extractEntry js/coffee-sprites.js
+85 silly gunzTarPerm extractEntry vendor/packer.growing.js
+86 verbose read json /Users/Ashton/.npm/coffee-sprites/0.0.8/package/package.json
+87 silly lockFile b149028b-npm-coffee-sprites-0-0-8-package /Users/Ashton/.npm/coffee-sprites/0.0.8/package
+88 silly lockFile b149028b-npm-coffee-sprites-0-0-8-package /Users/Ashton/.npm/coffee-sprites/0.0.8/package
+89 silly lockFile 7a5e4fe7-coffee-sprites-0-0-8-package-tgz /Users/Ashton/.npm/coffee-sprites/0.0.8/package.tgz
+90 silly lockFile 7a5e4fe7-coffee-sprites-0-0-8-package-tgz /Users/Ashton/.npm/coffee-sprites/0.0.8/package.tgz
+91 silly shasum updated bytes 10747
+92 info shasum 8a85059172a2cc980c829356263be02dada0c6de
+92 info shasum /Users/Ashton/.npm/coffee-sprites/0.0.8/package.tgz
+93 verbose from cache /Users/Ashton/.npm/coffee-sprites/0.0.8/package/package.json
+94 verbose chmod /Users/Ashton/.npm/coffee-sprites/0.0.8/package.tgz 644
+95 verbose chown /Users/Ashton/.npm/coffee-sprites/0.0.8/package.tgz [ 501, 20 ]
+96 silly lockFile 3cee7f4a-sprites-coffee-sprites-0-0-8-tgz https://registry.npmjs.org/coffee-sprites/-/coffee-sprites-0.0.8.tgz
+97 silly lockFile 3cee7f4a-sprites-coffee-sprites-0-0-8-tgz https://registry.npmjs.org/coffee-sprites/-/coffee-sprites-0.0.8.tgz
+98 silly lockFile a7494e1a-coffee-sprites-0-0-8 coffee-sprites@0.0.8
+99 silly lockFile a7494e1a-coffee-sprites-0-0-8 coffee-sprites@0.0.8
+100 silly lockFile b9e2fce7-coffee-sprites coffee-sprites@
+101 silly lockFile b9e2fce7-coffee-sprites coffee-sprites@
+102 silly resolved [ { name: 'coffee-sprites',
+102 silly resolved     version: '0.0.8',
+102 silly resolved     description: 'CoffeeScript/JavaScript stylesheet-based sprite image engine.',
+102 silly resolved     main: 'js/coffee-sprites.js',
+102 silly resolved     directories: { test: 'test' },
+102 silly resolved     scripts:
+102 silly resolved      { pretest: 'coffee --bare -o js coffee/coffee-sprites.coffee',
+102 silly resolved        test: 'rm -rf test/fixtures/static/public/assets/* && mocha --timeout 100000 --reporter spec --bail --ui bdd --colors --compilers coffee:coffee-script --require coffee-script test/test.coffee' },
+102 silly resolved     repository:
+102 silly resolved      { type: 'git',
+102 silly resolved        url: 'git://github.com/mikesmullin/coffee-sprites.git' },
+102 silly resolved     keywords:
+102 silly resolved      [ 'coffee',
+102 silly resolved        'css',
+102 silly resolved        'stylesheet',
+102 silly resolved        'stylesheets',
+102 silly resolved        'image',
+102 silly resolved        'sprite',
+102 silly resolved        'sprites',
+102 silly resolved        'spriting',
+102 silly resolved        'plugin',
+102 silly resolved        'fast',
+102 silly resolved        'engine' ],
+102 silly resolved     author: { name: 'Mike Smullin', email: 'mike@smullindesign.com' },
+102 silly resolved     license: 'MIT',
+102 silly resolved     readmeFilename: 'README.md',
+102 silly resolved     devDependencies: { chai: '*', 'coffee-stylesheets': '*' },
+102 silly resolved     dependencies: { 'node-gd': '*', async2: '*', glob: '*' },
+102 silly resolved     readme: '# CoffeeSprites\n\n**CoffeeSprites** is a plugin for Node.js [CoffeeStylesheets](https://github.com/mikesmullin/coffee-stylesheets)\nwhich allows you to use functions like `sprite_position()`, `sprite_height()`, `image_width()`, `sprite_map()`, etc.\nwithin your `*.css.coffee` markup to automatically fetch images and generate css sprites at render time.\n\nIf you come from the Ruby on Rails community, you will immediately recognize conventions from Spriting\nwith [Compass](http://compass-style.org/help/tutorials/spriting/)/SASS, originally [Lemonade](http://www.hagenburger.net/BLOG/Lemonade-CSS-Sprites-for-Sass-Compass.html).\n\n## Installation on Debian/Ubuntu\n\n```bash\nsudo apt-get install libgd2-xpm-dev # libgd; the node-gd dependency\nsudo apt-get install pngcrush # optional; helps compress PNG\nnpm install coffee-sprites\n```\n\n## Use\n\n```coffeescript\nCoffeeStylesheets = require \'coffee-stylesheets\'\nengine = new CoffeeStylesheets format: true\n\nCoffeeSprites = require __dirname + \'coffee-sprites\'\nengine.use new CoffeeSprites\n  image_path:  __dirname + \'/precompile/assets/sprites/\'\n  sprite_path: __dirname + \'/static/public/assets/\'\n  sprite_url:  \'/assets/\'\n\n  stylesheet = ->\n    body ->\n      background \'#eee\'\n      color \'#333\'\n      margin \'20px\'\n    wigi = sprite_map \'wigi\',\n      spacing: 10\n    s \'#wigi\', ->\n      background "url(#{sprite_url wigi}) no-repeat"\n      height sprite_height wigi, \'fly-3\'\n      width sprite_width wigi, \'fly-3\'\n    for i, v of \'walk-1 walk-2 walk-3 run-1 run-2 run-3 fly-1 fly-2 fly-3 fall jump\'.split \' \'\n      s \'#wigi.wigi-\'+i, ->\n        background_position sprite_position wigi, v\n\ncss = engine.render stylesheet, (err, css) ->\n  fs.writeFileSync __dirname + \'/static/public/assets/application.css\', css\n```\n\nWill output CSS like this:\n\n```css\n#wigi {\n  background: url(./wigi-2e192be7fd.png) no-repeat;\n  height: 112px;\n  width: 96px;\n}\n#wigi.wigi-0 {\n  background-position: 0 -122px;\n}\n#wigi.wigi-1 {\n  background-position: 0 -244px;\n}\n#wigi.wigi-2 {\n  background-position: 0 -366px;\n}\n#wigi.wigi-3 {\n  background-position: 0 -484px;\n}\n#wigi.wigi-4 {\n  background-position: 0 -606px;\n}\n#wigi.wigi-5 {\n  background-position: 0 -728px;\n}\n#wigi.wigi-6 {\n  background-position: 0 -850px;\n}\n#wigi.wigi-7 {\n  background-position: 0 -968px;\n}\n#wigi.wigi-8 {\n  background-position: 0 0;\n}\n#wigi.wigi-9 {\n  background-position: 0 -1086px;\n}\n#wigi.wigi-10 {\n  background-position: 0 -1208px;\n}\n```\n\nand CoffeeSprites will produce output like this:\n\n* [./test/fixtures/static/public/assets/*.png](https://github.com/mikesmullin/coffee-sprites/blob/stable/test/fixtures/static/public/assets/)\n\nFor the latest and most comprehensive examples of input, see [./test/fixtures/precompile/assets/](https://github.com/mikesmullin/coffee-sprites/blob/stable/test/fixtures/precompile/assets/).\n\n## Test\n\n```bash\nnpm test # build coffee, run mocha unit test, run chrome browser integration test\n```\n',
+102 silly resolved     _id: 'coffee-sprites@0.0.8',
+102 silly resolved     dist: { shasum: '8a85059172a2cc980c829356263be02dada0c6de' },
+102 silly resolved     _from: 'coffee-sprites@',
+102 silly resolved     _resolved: 'https://registry.npmjs.org/coffee-sprites/-/coffee-sprites-0.0.8.tgz' } ]
+103 info install coffee-sprites@0.0.8 into /Users/Ashton/Dropbox/freelanceThis
+104 info installOne coffee-sprites@0.0.8
+105 verbose from cache /Users/Ashton/.npm/coffee-sprites/0.0.8/package/package.json
+106 info /Users/Ashton/Dropbox/freelanceThis/node_modules/coffee-sprites unbuild
+107 verbose read json /Users/Ashton/Dropbox/freelanceThis/node_modules/coffee-sprites/package.json
+108 verbose tar unpack /Users/Ashton/.npm/coffee-sprites/0.0.8/package.tgz
+109 silly lockFile 96800df4-This-node-modules-coffee-sprites /Users/Ashton/Dropbox/freelanceThis/node_modules/coffee-sprites
+110 verbose lock /Users/Ashton/Dropbox/freelanceThis/node_modules/coffee-sprites /Users/Ashton/.npm/96800df4-This-node-modules-coffee-sprites.lock
+111 silly lockFile 7a5e4fe7-coffee-sprites-0-0-8-package-tgz /Users/Ashton/.npm/coffee-sprites/0.0.8/package.tgz
+112 verbose lock /Users/Ashton/.npm/coffee-sprites/0.0.8/package.tgz /Users/Ashton/.npm/7a5e4fe7-coffee-sprites-0-0-8-package-tgz.lock
+113 silly gunzTarPerm modes [ '755', '644' ]
+114 silly gunzTarPerm extractEntry package.json
+115 silly gunzTarPerm extractEntry .npmignore
+116 silly gunzTarPerm extractEntry README.md
+117 silly gunzTarPerm extractEntry coffee/coffee-sprites.coffee
+118 silly gunzTarPerm extractEntry js/coffee-sprites.js
+119 silly gunzTarPerm extractEntry vendor/packer.growing.js
+120 verbose read json /Users/Ashton/Dropbox/freelanceThis/node_modules/coffee-sprites/package.json
+121 silly lockFile 96800df4-This-node-modules-coffee-sprites /Users/Ashton/Dropbox/freelanceThis/node_modules/coffee-sprites
+122 silly lockFile 96800df4-This-node-modules-coffee-sprites /Users/Ashton/Dropbox/freelanceThis/node_modules/coffee-sprites
+123 silly lockFile 7a5e4fe7-coffee-sprites-0-0-8-package-tgz /Users/Ashton/.npm/coffee-sprites/0.0.8/package.tgz
+124 silly lockFile 7a5e4fe7-coffee-sprites-0-0-8-package-tgz /Users/Ashton/.npm/coffee-sprites/0.0.8/package.tgz
+125 info preinstall coffee-sprites@0.0.8
+126 verbose from cache /Users/Ashton/Dropbox/freelanceThis/node_modules/coffee-sprites/package.json
+127 verbose readDependencies using package.json deps
+128 verbose from cache /Users/Ashton/Dropbox/freelanceThis/node_modules/coffee-sprites/package.json
+129 verbose readDependencies using package.json deps
+130 verbose cache add [ 'glob@*', null ]
+131 verbose cache add name=undefined spec="glob@*" args=["glob@*",null]
+132 verbose parsed url { protocol: null,
+132 verbose parsed url   slashes: null,
+132 verbose parsed url   auth: null,
+132 verbose parsed url   host: null,
+132 verbose parsed url   port: null,
+132 verbose parsed url   hostname: null,
+132 verbose parsed url   hash: null,
+132 verbose parsed url   search: null,
+132 verbose parsed url   query: null,
+132 verbose parsed url   pathname: 'glob@*',
+132 verbose parsed url   path: 'glob@*',
+132 verbose parsed url   href: 'glob@*' }
+133 verbose cache add name="glob" spec="*" args=["glob","*"]
+134 verbose parsed url { protocol: null,
+134 verbose parsed url   slashes: null,
+134 verbose parsed url   auth: null,
+134 verbose parsed url   host: null,
+134 verbose parsed url   port: null,
+134 verbose parsed url   hostname: null,
+134 verbose parsed url   hash: null,
+134 verbose parsed url   search: null,
+134 verbose parsed url   query: null,
+134 verbose parsed url   pathname: '*',
+134 verbose parsed url   path: '*',
+134 verbose parsed url   href: '*' }
+135 verbose addNamed [ 'glob', '*' ]
+136 verbose addNamed [ null, '' ]
+137 silly lockFile 4b1bf7e3-glob glob@*
+138 verbose lock glob@* /Users/Ashton/.npm/4b1bf7e3-glob.lock
+139 verbose cache add [ 'node-gd@*', null ]
+140 verbose cache add name=undefined spec="node-gd@*" args=["node-gd@*",null]
+141 verbose parsed url { protocol: null,
+141 verbose parsed url   slashes: null,
+141 verbose parsed url   auth: null,
+141 verbose parsed url   host: null,
+141 verbose parsed url   port: null,
+141 verbose parsed url   hostname: null,
+141 verbose parsed url   hash: null,
+141 verbose parsed url   search: null,
+141 verbose parsed url   query: null,
+141 verbose parsed url   pathname: 'node-gd@*',
+141 verbose parsed url   path: 'node-gd@*',
+141 verbose parsed url   href: 'node-gd@*' }
+142 verbose cache add name="node-gd" spec="*" args=["node-gd","*"]
+143 verbose parsed url { protocol: null,
+143 verbose parsed url   slashes: null,
+143 verbose parsed url   auth: null,
+143 verbose parsed url   host: null,
+143 verbose parsed url   port: null,
+143 verbose parsed url   hostname: null,
+143 verbose parsed url   hash: null,
+143 verbose parsed url   search: null,
+143 verbose parsed url   query: null,
+143 verbose parsed url   pathname: '*',
+143 verbose parsed url   path: '*',
+143 verbose parsed url   href: '*' }
+144 verbose addNamed [ 'node-gd', '*' ]
+145 verbose addNamed [ null, '' ]
+146 silly lockFile 3eb59e1c-node-gd node-gd@*
+147 verbose lock node-gd@* /Users/Ashton/.npm/3eb59e1c-node-gd.lock
+148 silly addNameRange { name: 'glob', range: '', hasData: false }
+149 verbose cache add [ 'async2@*', null ]
+150 verbose cache add name=undefined spec="async2@*" args=["async2@*",null]
+151 verbose parsed url { protocol: null,
+151 verbose parsed url   slashes: null,
+151 verbose parsed url   auth: null,
+151 verbose parsed url   host: null,
+151 verbose parsed url   port: null,
+151 verbose parsed url   hostname: null,
+151 verbose parsed url   hash: null,
+151 verbose parsed url   search: null,
+151 verbose parsed url   query: null,
+151 verbose parsed url   pathname: 'async2@*',
+151 verbose parsed url   path: 'async2@*',
+151 verbose parsed url   href: 'async2@*' }
+152 verbose cache add name="async2" spec="*" args=["async2","*"]
+153 verbose parsed url { protocol: null,
+153 verbose parsed url   slashes: null,
+153 verbose parsed url   auth: null,
+153 verbose parsed url   host: null,
+153 verbose parsed url   port: null,
+153 verbose parsed url   hostname: null,
+153 verbose parsed url   hash: null,
+153 verbose parsed url   search: null,
+153 verbose parsed url   query: null,
+153 verbose parsed url   pathname: '*',
+153 verbose parsed url   path: '*',
+153 verbose parsed url   href: '*' }
+154 verbose addNamed [ 'async2', '*' ]
+155 verbose addNamed [ null, '' ]
+156 silly lockFile b55ae397-async2 async2@*
+157 verbose lock async2@* /Users/Ashton/.npm/b55ae397-async2.lock
+158 silly addNameRange { name: 'node-gd', range: '', hasData: false }
+159 silly addNameRange { name: 'async2', range: '', hasData: false }
+160 verbose url raw node-gd
+161 verbose url resolving [ 'https://registry.npmjs.org/', './node-gd' ]
+162 verbose url resolved https://registry.npmjs.org/node-gd
+163 info trying registry request attempt 1 at 00:54:24
+164 http GET https://registry.npmjs.org/node-gd
+165 verbose url raw async2
+166 verbose url resolving [ 'https://registry.npmjs.org/', './async2' ]
+167 verbose url resolved https://registry.npmjs.org/async2
+168 info trying registry request attempt 1 at 00:54:24
+169 http GET https://registry.npmjs.org/async2
+170 verbose url raw glob
+171 verbose url resolving [ 'https://registry.npmjs.org/', './glob' ]
+172 verbose url resolved https://registry.npmjs.org/glob
+173 info trying registry request attempt 1 at 00:54:24
+174 verbose etag "BEHV1LR3OJMFYLTKJU8OJFA0H"
+175 http GET https://registry.npmjs.org/glob
+176 http 304 https://registry.npmjs.org/glob
+177 silly registry.get cb [ 304,
+177 silly registry.get   { date: 'Sat, 22 Feb 2014 05:54:24 GMT',
+177 silly registry.get     server: 'Apache',
+177 silly registry.get     connection: 'Keep-Alive',
+177 silly registry.get     'keep-alive': 'timeout=10, max=50',
+177 silly registry.get     etag: '"BEHV1LR3OJMFYLTKJU8OJFA0H"',
+177 silly registry.get     'cache-control': 'max-age=1',
+177 silly registry.get     vary: 'Accept' } ]
+178 verbose etag glob from cache
+179 http 200 https://registry.npmjs.org/node-gd
+180 silly registry.get cb [ 200,
+180 silly registry.get   { date: 'Sat, 22 Feb 2014 05:54:24 GMT',
+180 silly registry.get     server: 'CouchDB/1.5.0 (Erlang OTP/R16B)',
+180 silly registry.get     etag: '"7YGQKUIVVP2GCY5JPKMS25W85"',
+180 silly registry.get     'content-type': 'application/json',
+180 silly registry.get     'cache-control': 'max-age=1',
+180 silly registry.get     'content-length': '19100',
+180 silly registry.get     'accept-ranges': 'bytes',
+180 silly registry.get     via: '1.1 varnish',
+180 silly registry.get     age: '246132',
+180 silly registry.get     'x-served-by': 'cache-v42-ASH',
+180 silly registry.get     'x-cache': 'HIT',
+180 silly registry.get     'x-cache-hits': '1',
+180 silly registry.get     'x-timer': 'S1393048464.346292973,VS0,VE0',
+180 silly registry.get     vary: 'Accept',
+180 silly registry.get     'keep-alive': 'timeout=10, max=50',
+180 silly registry.get     connection: 'Keep-Alive' } ]
+181 silly addNameRange number 2 { name: 'glob', range: '', hasData: true }
+182 silly addNameRange versions [ 'glob',
+182 silly addNameRange   [ '1.1.0',
+182 silly addNameRange     '2.0.9',
+182 silly addNameRange     '2.0.8',
+182 silly addNameRange     '2.0.7',
+182 silly addNameRange     '2.1.0',
+182 silly addNameRange     '3.0.0',
+182 silly addNameRange     '3.0.1',
+182 silly addNameRange     '3.1.0',
+182 silly addNameRange     '3.1.1',
+182 silly addNameRange     '3.1.2',
+182 silly addNameRange     '3.1.3',
+182 silly addNameRange     '3.1.4',
+182 silly addNameRange     '3.1.5',
+182 silly addNameRange     '3.1.6',
+182 silly addNameRange     '3.1.7',
+182 silly addNameRange     '3.1.9',
+182 silly addNameRange     '3.1.10',
+182 silly addNameRange     '3.1.11',
+182 silly addNameRange     '3.1.12',
+182 silly addNameRange     '3.1.13',
+182 silly addNameRange     '3.1.14',
+182 silly addNameRange     '3.1.15',
+182 silly addNameRange     '3.1.16',
+182 silly addNameRange     '3.1.17',
+182 silly addNameRange     '3.1.18',
+182 silly addNameRange     '3.1.19',
+182 silly addNameRange     '3.1.20',
+182 silly addNameRange     '3.1.21',
+182 silly addNameRange     '3.2.0',
+182 silly addNameRange     '3.2.1',
+182 silly addNameRange     '3.2.3',
+182 silly addNameRange     '3.2.4',
+182 silly addNameRange     '3.2.5',
+182 silly addNameRange     '3.2.6',
+182 silly addNameRange     '3.2.7',
+182 silly addNameRange     '3.2.8' ] ]
+183 verbose addNamed [ 'glob', '3.2.8' ]
+184 verbose addNamed [ '3.2.8', '3.2.8' ]
+185 silly lockFile e6a7b6a5-glob-3-2-8 glob@3.2.8
+186 verbose lock glob@3.2.8 /Users/Ashton/.npm/e6a7b6a5-glob-3-2-8.lock
+187 verbose read json /Users/Ashton/.npm/glob/3.2.8/package/package.json
+188 silly addNameRange number 2 { name: 'node-gd', range: '', hasData: true }
+189 silly addNameRange versions [ 'node-gd',
+189 silly addNameRange   [ '0.1.5',
+189 silly addNameRange     '0.1.6',
+189 silly addNameRange     '0.1.7',
+189 silly addNameRange     '0.1.8',
+189 silly addNameRange     '0.2.0',
+189 silly addNameRange     '0.2.1',
+189 silly addNameRange     '0.2.2',
+189 silly addNameRange     '0.2.3' ] ]
+190 verbose addNamed [ 'node-gd', '0.2.3' ]
+191 verbose addNamed [ '0.2.3', '0.2.3' ]
+192 silly lockFile 88f6ead0-node-gd-0-2-3 node-gd@0.2.3
+193 verbose lock node-gd@0.2.3 /Users/Ashton/.npm/88f6ead0-node-gd-0-2-3.lock
+194 silly lockFile ae1e3143-js-org-node-gd-node-gd-0-2-3-tgz https://registry.npmjs.org/node-gd/-/node-gd-0.2.3.tgz
+195 verbose lock https://registry.npmjs.org/node-gd/-/node-gd-0.2.3.tgz /Users/Ashton/.npm/ae1e3143-js-org-node-gd-node-gd-0-2-3-tgz.lock
+196 verbose addRemoteTarball [ 'https://registry.npmjs.org/node-gd/-/node-gd-0.2.3.tgz',
+196 verbose addRemoteTarball   '2b6a842616ce69fc2aaa1dfbc0f7fd19907d566e' ]
+197 info retry fetch attempt 1 at 00:54:24
+198 verbose fetch to= /var/folders/58/l28nvmf109301z41ppn9j2w00000gn/T/npm-33234/1393048464415-0.8083852978888899/tmp.tgz
+199 http GET https://registry.npmjs.org/node-gd/-/node-gd-0.2.3.tgz
+200 silly lockFile e6a7b6a5-glob-3-2-8 glob@3.2.8
+201 silly lockFile e6a7b6a5-glob-3-2-8 glob@3.2.8
+202 silly lockFile 4b1bf7e3-glob glob@*
+203 silly lockFile 4b1bf7e3-glob glob@*
+204 http 200 https://registry.npmjs.org/async2
+205 silly registry.get cb [ 200,
+205 silly registry.get   { date: 'Sat, 22 Feb 2014 05:54:24 GMT',
+205 silly registry.get     server: 'CouchDB/1.5.0 (Erlang OTP/R16B)',
+205 silly registry.get     etag: '"939OH1GS1YGRV3EKSTKFNWXGS"',
+205 silly registry.get     'content-type': 'application/json',
+205 silly registry.get     'cache-control': 'max-age=1',
+205 silly registry.get     'content-length': '66369',
+205 silly registry.get     'accept-ranges': 'bytes',
+205 silly registry.get     via: '1.1 varnish',
+205 silly registry.get     age: '0',
+205 silly registry.get     'x-served-by': 'cache-v37-ASH',
+205 silly registry.get     'x-cache': 'MISS',
+205 silly registry.get     'x-cache-hits': '0',
+205 silly registry.get     'x-timer': 'S1393048464.370070696,VS0,VE24',
+205 silly registry.get     vary: 'Accept',
+205 silly registry.get     'keep-alive': 'timeout=10, max=50',
+205 silly registry.get     connection: 'Keep-Alive' } ]
+206 silly addNameRange number 2 { name: 'async2', range: '', hasData: true }
+207 silly addNameRange versions [ 'async2',
+207 silly addNameRange   [ '0.1.0',
+207 silly addNameRange     '0.1.1',
+207 silly addNameRange     '0.1.2',
+207 silly addNameRange     '0.1.3',
+207 silly addNameRange     '0.1.4',
+207 silly addNameRange     '0.1.5',
+207 silly addNameRange     '0.1.6',
+207 silly addNameRange     '0.1.7' ] ]
+208 verbose addNamed [ 'async2', '0.1.7' ]
+209 verbose addNamed [ '0.1.7', '0.1.7' ]
+210 silly lockFile 4a6d4862-async2-0-1-7 async2@0.1.7
+211 verbose lock async2@0.1.7 /Users/Ashton/.npm/4a6d4862-async2-0-1-7.lock
+212 silly lockFile fb93a7d8-pmjs-org-async2-async2-0-1-7-tgz https://registry.npmjs.org/async2/-/async2-0.1.7.tgz
+213 verbose lock https://registry.npmjs.org/async2/-/async2-0.1.7.tgz /Users/Ashton/.npm/fb93a7d8-pmjs-org-async2-async2-0-1-7-tgz.lock
+214 verbose addRemoteTarball [ 'https://registry.npmjs.org/async2/-/async2-0.1.7.tgz',
+214 verbose addRemoteTarball   'a1e7bc53f761c0221c00e1913e48fa6c53a79119' ]
+215 info retry fetch attempt 1 at 00:54:24
+216 verbose fetch to= /var/folders/58/l28nvmf109301z41ppn9j2w00000gn/T/npm-33234/1393048464516-0.6297296467237175/tmp.tgz
+217 http GET https://registry.npmjs.org/async2/-/async2-0.1.7.tgz
+218 http 200 https://registry.npmjs.org/node-gd/-/node-gd-0.2.3.tgz
+219 silly shasum updated bytes 9332
+220 info shasum 2b6a842616ce69fc2aaa1dfbc0f7fd19907d566e
+220 info shasum /var/folders/58/l28nvmf109301z41ppn9j2w00000gn/T/npm-33234/1393048464415-0.8083852978888899/tmp.tgz
+221 verbose tar unpack /var/folders/58/l28nvmf109301z41ppn9j2w00000gn/T/npm-33234/1393048464415-0.8083852978888899/tmp.tgz
+222 silly lockFile 9e089827-64415-0-8083852978888899-package /var/folders/58/l28nvmf109301z41ppn9j2w00000gn/T/npm-33234/1393048464415-0.8083852978888899/package
+223 verbose lock /var/folders/58/l28nvmf109301z41ppn9j2w00000gn/T/npm-33234/1393048464415-0.8083852978888899/package /Users/Ashton/.npm/9e089827-64415-0-8083852978888899-package.lock
+224 silly lockFile c0c83cec-64415-0-8083852978888899-tmp-tgz /var/folders/58/l28nvmf109301z41ppn9j2w00000gn/T/npm-33234/1393048464415-0.8083852978888899/tmp.tgz
+225 verbose lock /var/folders/58/l28nvmf109301z41ppn9j2w00000gn/T/npm-33234/1393048464415-0.8083852978888899/tmp.tgz /Users/Ashton/.npm/c0c83cec-64415-0-8083852978888899-tmp-tgz.lock
+226 silly gunzTarPerm modes [ '755', '644' ]
+227 silly gunzTarPerm extractEntry package.json
+228 silly gunzTarPerm extractEntry .npmignore
+229 silly gunzTarPerm extractEntry README.md
+230 silly gunzTarPerm extractEntry binding.gyp
+231 silly gunzTarPerm extractEntry cpp/node-gd.cpp
+232 silly gunzTarPerm extractEntry coffee/node-gd.coffee
+233 silly gunzTarPerm extractEntry js/node-gd.js
+234 verbose read json /var/folders/58/l28nvmf109301z41ppn9j2w00000gn/T/npm-33234/1393048464415-0.8083852978888899/package/package.json
+235 silly lockFile 9e089827-64415-0-8083852978888899-package /var/folders/58/l28nvmf109301z41ppn9j2w00000gn/T/npm-33234/1393048464415-0.8083852978888899/package
+236 silly lockFile 9e089827-64415-0-8083852978888899-package /var/folders/58/l28nvmf109301z41ppn9j2w00000gn/T/npm-33234/1393048464415-0.8083852978888899/package
+237 silly lockFile c0c83cec-64415-0-8083852978888899-tmp-tgz /var/folders/58/l28nvmf109301z41ppn9j2w00000gn/T/npm-33234/1393048464415-0.8083852978888899/tmp.tgz
+238 silly lockFile c0c83cec-64415-0-8083852978888899-tmp-tgz /var/folders/58/l28nvmf109301z41ppn9j2w00000gn/T/npm-33234/1393048464415-0.8083852978888899/tmp.tgz
+239 verbose from cache /var/folders/58/l28nvmf109301z41ppn9j2w00000gn/T/npm-33234/1393048464415-0.8083852978888899/package/package.json
+240 verbose tar pack [ '/Users/Ashton/.npm/node-gd/0.2.3/package.tgz',
+240 verbose tar pack   '/var/folders/58/l28nvmf109301z41ppn9j2w00000gn/T/npm-33234/1393048464415-0.8083852978888899/package' ]
+241 verbose tarball /Users/Ashton/.npm/node-gd/0.2.3/package.tgz
+242 verbose folder /var/folders/58/l28nvmf109301z41ppn9j2w00000gn/T/npm-33234/1393048464415-0.8083852978888899/package
+243 silly lockFile 9e089827-64415-0-8083852978888899-package /var/folders/58/l28nvmf109301z41ppn9j2w00000gn/T/npm-33234/1393048464415-0.8083852978888899/package
+244 verbose lock /var/folders/58/l28nvmf109301z41ppn9j2w00000gn/T/npm-33234/1393048464415-0.8083852978888899/package /Users/Ashton/.npm/9e089827-64415-0-8083852978888899-package.lock
+245 silly lockFile 720d590f-on-npm-node-gd-0-2-3-package-tgz /Users/Ashton/.npm/node-gd/0.2.3/package.tgz
+246 verbose lock /Users/Ashton/.npm/node-gd/0.2.3/package.tgz /Users/Ashton/.npm/720d590f-on-npm-node-gd-0-2-3-package-tgz.lock
+247 http 200 https://registry.npmjs.org/async2/-/async2-0.1.7.tgz
+248 silly shasum updated bytes 8838
+249 info shasum a1e7bc53f761c0221c00e1913e48fa6c53a79119
+249 info shasum /var/folders/58/l28nvmf109301z41ppn9j2w00000gn/T/npm-33234/1393048464516-0.6297296467237175/tmp.tgz
+250 verbose tar unpack /var/folders/58/l28nvmf109301z41ppn9j2w00000gn/T/npm-33234/1393048464516-0.6297296467237175/tmp.tgz
+251 silly lockFile 6cee606e-64516-0-6297296467237175-package /var/folders/58/l28nvmf109301z41ppn9j2w00000gn/T/npm-33234/1393048464516-0.6297296467237175/package
+252 verbose lock /var/folders/58/l28nvmf109301z41ppn9j2w00000gn/T/npm-33234/1393048464516-0.6297296467237175/package /Users/Ashton/.npm/6cee606e-64516-0-6297296467237175-package.lock
+253 silly lockFile 97a1ce9d-64516-0-6297296467237175-tmp-tgz /var/folders/58/l28nvmf109301z41ppn9j2w00000gn/T/npm-33234/1393048464516-0.6297296467237175/tmp.tgz
+254 verbose lock /var/folders/58/l28nvmf109301z41ppn9j2w00000gn/T/npm-33234/1393048464516-0.6297296467237175/tmp.tgz /Users/Ashton/.npm/97a1ce9d-64516-0-6297296467237175-tmp-tgz.lock
+255 silly gunzTarPerm modes [ '755', '644' ]
+256 silly gunzTarPerm extractEntry package.json
+257 silly gunzTarPerm extractEntry .npmignore
+258 silly gunzTarPerm extractEntry README.md
+259 silly gunzTarPerm extractEntry coffee/async2.coffee
+260 silly gunzTarPerm extractEntry js/async2.min.js
+261 silly gunzTarPerm extractEntry js/async2.js
+262 silly gunzTarPerm extractEntry js/async2.min.js.gz
+263 verbose read json /var/folders/58/l28nvmf109301z41ppn9j2w00000gn/T/npm-33234/1393048464516-0.6297296467237175/package/package.json
+264 silly lockFile 6cee606e-64516-0-6297296467237175-package /var/folders/58/l28nvmf109301z41ppn9j2w00000gn/T/npm-33234/1393048464516-0.6297296467237175/package
+265 silly lockFile 6cee606e-64516-0-6297296467237175-package /var/folders/58/l28nvmf109301z41ppn9j2w00000gn/T/npm-33234/1393048464516-0.6297296467237175/package
+266 silly lockFile 97a1ce9d-64516-0-6297296467237175-tmp-tgz /var/folders/58/l28nvmf109301z41ppn9j2w00000gn/T/npm-33234/1393048464516-0.6297296467237175/tmp.tgz
+267 silly lockFile 97a1ce9d-64516-0-6297296467237175-tmp-tgz /var/folders/58/l28nvmf109301z41ppn9j2w00000gn/T/npm-33234/1393048464516-0.6297296467237175/tmp.tgz
+268 silly lockFile 9e089827-64415-0-8083852978888899-package /var/folders/58/l28nvmf109301z41ppn9j2w00000gn/T/npm-33234/1393048464415-0.8083852978888899/package
+269 silly lockFile 9e089827-64415-0-8083852978888899-package /var/folders/58/l28nvmf109301z41ppn9j2w00000gn/T/npm-33234/1393048464415-0.8083852978888899/package
+270 verbose from cache /var/folders/58/l28nvmf109301z41ppn9j2w00000gn/T/npm-33234/1393048464516-0.6297296467237175/package/package.json
+271 verbose tar pack [ '/Users/Ashton/.npm/async2/0.1.7/package.tgz',
+271 verbose tar pack   '/var/folders/58/l28nvmf109301z41ppn9j2w00000gn/T/npm-33234/1393048464516-0.6297296467237175/package' ]
+272 verbose tarball /Users/Ashton/.npm/async2/0.1.7/package.tgz
+273 verbose folder /var/folders/58/l28nvmf109301z41ppn9j2w00000gn/T/npm-33234/1393048464516-0.6297296467237175/package
+274 silly lockFile 6cee606e-64516-0-6297296467237175-package /var/folders/58/l28nvmf109301z41ppn9j2w00000gn/T/npm-33234/1393048464516-0.6297296467237175/package
+275 verbose lock /var/folders/58/l28nvmf109301z41ppn9j2w00000gn/T/npm-33234/1393048464516-0.6297296467237175/package /Users/Ashton/.npm/6cee606e-64516-0-6297296467237175-package.lock
+276 silly lockFile 1b6b0a82-ton-npm-async2-0-1-7-package-tgz /Users/Ashton/.npm/async2/0.1.7/package.tgz
+277 verbose lock /Users/Ashton/.npm/async2/0.1.7/package.tgz /Users/Ashton/.npm/1b6b0a82-ton-npm-async2-0-1-7-package-tgz.lock
+278 silly lockFile 720d590f-on-npm-node-gd-0-2-3-package-tgz /Users/Ashton/.npm/node-gd/0.2.3/package.tgz
+279 silly lockFile 720d590f-on-npm-node-gd-0-2-3-package-tgz /Users/Ashton/.npm/node-gd/0.2.3/package.tgz
+280 silly lockFile 0267c036-Ashton-npm-node-gd-0-2-3-package /Users/Ashton/.npm/node-gd/0.2.3/package
+281 verbose lock /Users/Ashton/.npm/node-gd/0.2.3/package /Users/Ashton/.npm/0267c036-Ashton-npm-node-gd-0-2-3-package.lock
+282 silly lockFile 0267c036-Ashton-npm-node-gd-0-2-3-package /Users/Ashton/.npm/node-gd/0.2.3/package
+283 silly lockFile 0267c036-Ashton-npm-node-gd-0-2-3-package /Users/Ashton/.npm/node-gd/0.2.3/package
+284 verbose tar unpack /Users/Ashton/.npm/node-gd/0.2.3/package.tgz
+285 silly lockFile 0267c036-Ashton-npm-node-gd-0-2-3-package /Users/Ashton/.npm/node-gd/0.2.3/package
+286 verbose lock /Users/Ashton/.npm/node-gd/0.2.3/package /Users/Ashton/.npm/0267c036-Ashton-npm-node-gd-0-2-3-package.lock
+287 silly lockFile 720d590f-on-npm-node-gd-0-2-3-package-tgz /Users/Ashton/.npm/node-gd/0.2.3/package.tgz
+288 verbose lock /Users/Ashton/.npm/node-gd/0.2.3/package.tgz /Users/Ashton/.npm/720d590f-on-npm-node-gd-0-2-3-package-tgz.lock
+289 silly gunzTarPerm modes [ '755', '644' ]
+290 silly gunzTarPerm extractEntry package.json
+291 silly gunzTarPerm extractEntry .npmignore
+292 silly gunzTarPerm extractEntry README.md
+293 silly gunzTarPerm extractEntry binding.gyp
+294 silly gunzTarPerm extractEntry coffee/node-gd.coffee
+295 silly gunzTarPerm extractEntry cpp/node-gd.cpp
+296 silly gunzTarPerm extractEntry js/node-gd.js
+297 silly lockFile 6cee606e-64516-0-6297296467237175-package /var/folders/58/l28nvmf109301z41ppn9j2w00000gn/T/npm-33234/1393048464516-0.6297296467237175/package
+298 silly lockFile 6cee606e-64516-0-6297296467237175-package /var/folders/58/l28nvmf109301z41ppn9j2w00000gn/T/npm-33234/1393048464516-0.6297296467237175/package
+299 silly lockFile 1b6b0a82-ton-npm-async2-0-1-7-package-tgz /Users/Ashton/.npm/async2/0.1.7/package.tgz
+300 silly lockFile 1b6b0a82-ton-npm-async2-0-1-7-package-tgz /Users/Ashton/.npm/async2/0.1.7/package.tgz
+301 silly lockFile 596f5682--Ashton-npm-async2-0-1-7-package /Users/Ashton/.npm/async2/0.1.7/package
+302 verbose lock /Users/Ashton/.npm/async2/0.1.7/package /Users/Ashton/.npm/596f5682--Ashton-npm-async2-0-1-7-package.lock
+303 silly lockFile 596f5682--Ashton-npm-async2-0-1-7-package /Users/Ashton/.npm/async2/0.1.7/package
+304 silly lockFile 596f5682--Ashton-npm-async2-0-1-7-package /Users/Ashton/.npm/async2/0.1.7/package
+305 verbose tar unpack /Users/Ashton/.npm/async2/0.1.7/package.tgz
+306 silly lockFile 596f5682--Ashton-npm-async2-0-1-7-package /Users/Ashton/.npm/async2/0.1.7/package
+307 verbose lock /Users/Ashton/.npm/async2/0.1.7/package /Users/Ashton/.npm/596f5682--Ashton-npm-async2-0-1-7-package.lock
+308 silly lockFile 1b6b0a82-ton-npm-async2-0-1-7-package-tgz /Users/Ashton/.npm/async2/0.1.7/package.tgz
+309 verbose lock /Users/Ashton/.npm/async2/0.1.7/package.tgz /Users/Ashton/.npm/1b6b0a82-ton-npm-async2-0-1-7-package-tgz.lock
+310 silly gunzTarPerm modes [ '755', '644' ]
+311 silly gunzTarPerm extractEntry package.json
+312 silly gunzTarPerm extractEntry .npmignore
+313 silly gunzTarPerm extractEntry README.md
+314 silly gunzTarPerm extractEntry coffee/async2.coffee
+315 silly gunzTarPerm extractEntry js/async2.js
+316 silly gunzTarPerm extractEntry js/async2.min.js
+317 silly gunzTarPerm extractEntry js/async2.min.js.gz
+318 verbose read json /Users/Ashton/.npm/node-gd/0.2.3/package/package.json
+319 silly lockFile 0267c036-Ashton-npm-node-gd-0-2-3-package /Users/Ashton/.npm/node-gd/0.2.3/package
+320 silly lockFile 0267c036-Ashton-npm-node-gd-0-2-3-package /Users/Ashton/.npm/node-gd/0.2.3/package
+321 silly lockFile 720d590f-on-npm-node-gd-0-2-3-package-tgz /Users/Ashton/.npm/node-gd/0.2.3/package.tgz
+322 silly lockFile 720d590f-on-npm-node-gd-0-2-3-package-tgz /Users/Ashton/.npm/node-gd/0.2.3/package.tgz
+323 silly shasum updated bytes 9133
+324 info shasum 22488d50f19b1264129746a184c6b3bb672c99b4
+324 info shasum /Users/Ashton/.npm/node-gd/0.2.3/package.tgz
+325 verbose from cache /Users/Ashton/.npm/node-gd/0.2.3/package/package.json
+326 verbose chmod /Users/Ashton/.npm/node-gd/0.2.3/package.tgz 644
+327 verbose chown /Users/Ashton/.npm/node-gd/0.2.3/package.tgz [ 501, 20 ]
+328 silly lockFile ae1e3143-js-org-node-gd-node-gd-0-2-3-tgz https://registry.npmjs.org/node-gd/-/node-gd-0.2.3.tgz
+329 silly lockFile ae1e3143-js-org-node-gd-node-gd-0-2-3-tgz https://registry.npmjs.org/node-gd/-/node-gd-0.2.3.tgz
+330 silly lockFile 88f6ead0-node-gd-0-2-3 node-gd@0.2.3
+331 silly lockFile 88f6ead0-node-gd-0-2-3 node-gd@0.2.3
+332 silly lockFile 3eb59e1c-node-gd node-gd@*
+333 silly lockFile 3eb59e1c-node-gd node-gd@*
+334 verbose read json /Users/Ashton/.npm/async2/0.1.7/package/package.json
+335 silly lockFile 596f5682--Ashton-npm-async2-0-1-7-package /Users/Ashton/.npm/async2/0.1.7/package
+336 silly lockFile 596f5682--Ashton-npm-async2-0-1-7-package /Users/Ashton/.npm/async2/0.1.7/package
+337 silly lockFile 1b6b0a82-ton-npm-async2-0-1-7-package-tgz /Users/Ashton/.npm/async2/0.1.7/package.tgz
+338 silly lockFile 1b6b0a82-ton-npm-async2-0-1-7-package-tgz /Users/Ashton/.npm/async2/0.1.7/package.tgz
+339 silly shasum updated bytes 8808
+340 info shasum c80c40fb19217ebde360c9b5f8a8c3de361a8d7d
+340 info shasum /Users/Ashton/.npm/async2/0.1.7/package.tgz
+341 verbose from cache /Users/Ashton/.npm/async2/0.1.7/package/package.json
+342 verbose chmod /Users/Ashton/.npm/async2/0.1.7/package.tgz 644
+343 verbose chown /Users/Ashton/.npm/async2/0.1.7/package.tgz [ 501, 20 ]
+344 silly lockFile fb93a7d8-pmjs-org-async2-async2-0-1-7-tgz https://registry.npmjs.org/async2/-/async2-0.1.7.tgz
+345 silly lockFile fb93a7d8-pmjs-org-async2-async2-0-1-7-tgz https://registry.npmjs.org/async2/-/async2-0.1.7.tgz
+346 silly lockFile 4a6d4862-async2-0-1-7 async2@0.1.7
+347 silly lockFile 4a6d4862-async2-0-1-7 async2@0.1.7
+348 silly lockFile b55ae397-async2 async2@*
+349 silly lockFile b55ae397-async2 async2@*
+350 silly resolved [ { author:
+350 silly resolved      { name: 'Isaac Z. Schlueter',
+350 silly resolved        email: 'i@izs.me',
+350 silly resolved        url: 'http://blog.izs.me/' },
+350 silly resolved     name: 'glob',
+350 silly resolved     description: 'a little globber',
+350 silly resolved     version: '3.2.8',
+350 silly resolved     repository: { type: 'git', url: 'git://github.com/isaacs/node-glob.git' },
+350 silly resolved     main: 'glob.js',
+350 silly resolved     engines: { node: '*' },
+350 silly resolved     dependencies: { minimatch: '~0.2.11', inherits: '2' },
+350 silly resolved     devDependencies: { tap: '~0.4.0', mkdirp: '0', rimraf: '1' },
+350 silly resolved     scripts: { test: 'tap test/*.js' },
+350 silly resolved     license: 'BSD',
+350 silly resolved     readme: '# Glob\n\nMatch files using the patterns the shell uses, like stars and stuff.\n\nThis is a glob implementation in JavaScript.  It uses the `minimatch`\nlibrary to do its matching.\n\n## Attention: node-glob users!\n\nThe API has changed dramatically between 2.x and 3.x. This library is\nnow 100% JavaScript, and the integer flags have been replaced with an\noptions object.\n\nAlso, there\'s an event emitter class, proper tests, and all the other\nthings you\'ve come to expect from node modules.\n\nAnd best of all, no compilation!\n\n## Usage\n\n```javascript\nvar glob = require("glob")\n\n// options is optional\nglob("**/*.js", options, function (er, files) {\n  // files is an array of filenames.\n  // If the `nonull` option is set, and nothing\n  // was found, then files is ["**/*.js"]\n  // er is an error object or null.\n})\n```\n\n## Features\n\nPlease see the [minimatch\ndocumentation](https://github.com/isaacs/minimatch) for more details.\n\nSupports these glob features:\n\n* Brace Expansion\n* Extended glob matching\n* "Globstar" `**` matching\n\nSee:\n\n* `man sh`\n* `man bash`\n* `man 3 fnmatch`\n* `man 5 gitignore`\n* [minimatch documentation](https://github.com/isaacs/minimatch)\n\n## glob(pattern, [options], cb)\n\n* `pattern` {String} Pattern to be matched\n* `options` {Object}\n* `cb` {Function}\n  * `err` {Error | null}\n  * `matches` {Array<String>} filenames found matching the pattern\n\nPerform an asynchronous glob search.\n\n## glob.sync(pattern, [options])\n\n* `pattern` {String} Pattern to be matched\n* `options` {Object}\n* return: {Array<String>} filenames found matching the pattern\n\nPerform a synchronous glob search.\n\n## Class: glob.Glob\n\nCreate a Glob object by instanting the `glob.Glob` class.\n\n```javascript\nvar Glob = require("glob").Glob\nvar mg = new Glob(pattern, options, cb)\n```\n\nIt\'s an EventEmitter, and starts walking the filesystem to find matches\nimmediately.\n\n### new glob.Glob(pattern, [options], [cb])\n\n* `pattern` {String} pattern to search for\n* `options` {Object}\n* `cb` {Function} Called when an error occurs, or matches are found\n  * `err` {Error | null}\n  * `matches` {Array<String>} filenames found matching the pattern\n\nNote that if the `sync` flag is set in the options, then matches will\nbe immediately available on the `g.found` member.\n\n### Properties\n\n* `minimatch` The minimatch object that the glob uses.\n* `options` The options object passed in.\n* `error` The error encountered.  When an error is encountered, the\n  glob object is in an undefined state, and should be discarded.\n* `aborted` Boolean which is set to true when calling `abort()`.  There\n  is no way at this time to continue a glob search after aborting, but\n  you can re-use the statCache to avoid having to duplicate syscalls.\n* `statCache` Collection of all the stat results the glob search\n  performed.\n* `cache` Convenience object.  Each field has the following possible\n  values:\n  * `false` - Path does not exist\n  * `true` - Path exists\n  * `1` - Path exists, and is not a directory\n  * `2` - Path exists, and is a directory\n  * `[file, entries, ...]` - Path exists, is a directory, and the\n    array value is the results of `fs.readdir`\n\n### Events\n\n* `end` When the matching is finished, this is emitted with all the\n  matches found.  If the `nonull` option is set, and no match was found,\n  then the `matches` list contains the original pattern.  The matches\n  are sorted, unless the `nosort` flag is set.\n* `match` Every time a match is found, this is emitted with the matched.\n* `error` Emitted when an unexpected error is encountered, or whenever\n  any fs error occurs if `options.strict` is set.\n* `abort` When `abort()` is called, this event is raised.\n\n### Methods\n\n* `abort` Stop the search.\n\n### Options\n\nAll the options that can be passed to Minimatch can also be passed to\nGlob to change pattern matching behavior.  Also, some have been added,\nor have glob-specific ramifications.\n\nAll options are false by default, unless otherwise noted.\n\nAll options are added to the glob object, as well.\n\n* `cwd` The current working directory in which to search.  Defaults\n  to `process.cwd()`.\n* `root` The place where patterns starting with `/` will be mounted\n  onto.  Defaults to `path.resolve(options.cwd, "/")` (`/` on Unix\n  systems, and `C:\\` or some such on Windows.)\n* `dot` Include `.dot` files in normal matches and `globstar` matches.\n  Note that an explicit dot in a portion of the pattern will always\n  match dot files.\n* `nomount` By default, a pattern starting with a forward-slash will be\n  "mounted" onto the root setting, so that a valid filesystem path is\n  returned.  Set this flag to disable that behavior.\n* `mark` Add a `/` character to directory matches.  Note that this\n  requires additional stat calls.\n* `nosort` Don\'t sort the results.\n* `stat` Set to true to stat *all* results.  This reduces performance\n  somewhat, and is completely unnecessary, unless `readdir` is presumed\n  to be an untrustworthy indicator of file existence.  It will cause\n  ELOOP to be triggered one level sooner in the case of cyclical\n  symbolic links.\n* `silent` When an unusual error is encountered\n  when attempting to read a directory, a warning will be printed to\n  stderr.  Set the `silent` option to true to suppress these warnings.\n* `strict` When an unusual error is encountered\n  when attempting to read a directory, the process will just continue on\n  in search of other matches.  Set the `strict` option to raise an error\n  in these cases.\n* `cache` See `cache` property above.  Pass in a previously generated\n  cache object to save some fs calls.\n* `statCache` A cache of results of filesystem information, to prevent\n  unnecessary stat calls.  While it should not normally be necessary to\n  set this, you may pass the statCache from one glob() call to the\n  options object of another, if you know that the filesystem will not\n  change between calls.  (See "Race Conditions" below.)\n* `sync` Perform a synchronous glob search.\n* `nounique` In some cases, brace-expanded patterns can result in the\n  same file showing up multiple times in the result set.  By default,\n  this implementation prevents duplicates in the result set.\n  Set this flag to disable that behavior.\n* `nonull` Set to never return an empty set, instead returning a set\n  containing the pattern itself.  This is the default in glob(3).\n* `nocase` Perform a case-insensitive match.  Note that case-insensitive\n  filesystems will sometimes result in glob returning results that are\n  case-insensitively matched anyway, since readdir and stat will not\n  raise an error.\n* `debug` Set to enable debug logging in minimatch and glob.\n* `globDebug` Set to enable debug logging in glob, but not minimatch.\n\n## Comparisons to other fnmatch/glob implementations\n\nWhile strict compliance with the existing standards is a worthwhile\ngoal, some discrepancies exist between node-glob and other\nimplementations, and are intentional.\n\nIf the pattern starts with a `!` character, then it is negated.  Set the\n`nonegate` flag to suppress this behavior, and treat leading `!`\ncharacters normally.  This is perhaps relevant if you wish to start the\npattern with a negative extglob pattern like `!(a|B)`.  Multiple `!`\ncharacters at the start of a pattern will negate the pattern multiple\ntimes.\n\nIf a pattern starts with `#`, then it is treated as a comment, and\nwill not match anything.  Use `\\#` to match a literal `#` at the\nstart of a line, or set the `nocomment` flag to suppress this behavior.\n\nThe double-star character `**` is supported by default, unless the\n`noglobstar` flag is set.  This is supported in the manner of bsdglob\nand bash 4.1, where `**` only has special significance if it is the only\nthing in a path part.  That is, `a/**/b` will match `a/x/y/b`, but\n`a/**b` will not.\n\nIf an escaped pattern has no matches, and the `nonull` flag is set,\nthen glob returns the pattern as-provided, rather than\ninterpreting the character escapes.  For example,\n`glob.match([], "\\\\*a\\\\?")` will return `"\\\\*a\\\\?"` rather than\n`"*a?"`.  This is akin to setting the `nullglob` option in bash, except\nthat it does not resolve escaped pattern characters.\n\nIf brace expansion is not disabled, then it is performed before any\nother interpretation of the glob pattern.  Thus, a pattern like\n`+(a|{b),c)}`, which would not be valid in bash or zsh, is expanded\n**first** into the set of `+(a|b)` and `+(a|c)`, and those patterns are\nchecked for validity.  Since those two are valid, matching proceeds.\n\n## Windows\n\n**Please only use forward-slashes in glob expressions.**\n\nThough windows uses either `/` or `\\` as its path separator, only `/`\ncharacters are used by this glob implementation.  You must use\nforward-slashes **only** in glob expressions.  Back-slashes will always\nbe interpreted as escape characters, not path separators.\n\nResults from absolute patterns such as `/foo/*` are mounted onto the\nroot setting using `path.join`.  On windows, this will by default result\nin `/foo/*` matching `C:\\foo\\bar.txt`.\n\n## Race Conditions\n\nGlob searching, by its very nature, is susceptible to race conditions,\nsince it relies on directory walking and such.\n\nAs a result, it is possible that a file that exists when glob looks for\nit may have been deleted or modified by the time it returns the result.\n\nAs part of its internal implementation, this program caches all stat\nand readdir calls that it makes, in order to cut down on system\noverhead.  However, this also makes it even more susceptible to races,\nespecially if the cache or statCache objects are reused between glob\ncalls.\n\nUsers are thus advised not to use a glob result as a guarantee of\nfilesystem state in the face of rapid changes.  For the vast majority\nof operations, this is never a problem.\n',
+350 silly resolved     readmeFilename: 'README.md',
+350 silly resolved     _id: 'glob@3.2.8',
+350 silly resolved     _from: 'glob@*' },
+350 silly resolved   { name: 'node-gd',
+350 silly resolved     version: '0.2.3',
+350 silly resolved     description: 'libgd C++ bindings for Node.js',
+350 silly resolved     main: 'js/node-gd.js',
+350 silly resolved     directories: { test: 'test' },
+350 silly resolved     scripts:
+350 silly resolved      { pretest: 'coffee --bare -o js coffee/node-gd.coffee && node-gyp rebuild',
+350 silly resolved        test: 'mocha --reporter spec --bail --ui bdd --colors --compilers coffee:coffee-script --require coffee-script test/test.coffee',
+350 silly resolved        install: 'node-gyp rebuild' },
+350 silly resolved     repository: { type: 'git', url: 'git://github.com/mikesmullin/node-gd.git' },
+350 silly resolved     keywords: [ 'libgd', 'gd', 'image', 'png', 'jpg', 'gif', 'graphics', 'library' ],
+350 silly resolved     author: { name: 'Taegon Kim', email: 'gonom9@gmail.com' },
+350 silly resolved     license: 'MIT',
+350 silly resolved     contributors:
+350 silly resolved      [ [Object],
+350 silly resolved        [Object],
+350 silly resolved        [Object],
+350 silly resolved        [Object],
+350 silly resolved        [Object],
+350 silly resolved        [Object],
+350 silly resolved        [Object] ],
+350 silly resolved     gypfile: true,
+350 silly resolved     readmeFilename: 'README.md',
+350 silly resolved     devDependencies: { mocha: '*', chai: '*' },
+350 silly resolved     readme: '# node-gd\n\nGD graphic library (libgd) C++ bindings for Node.js.\n\nThis version is the community-maintained [official NodeJS.org node-gd repo](https://npmjs.org/package/node-gd).\n\n## Installation on Debian/Ubuntu\n\n```bash\nsudo apt-get install libgd2-xpm-dev # libgd\nnpm install node-gd\n```\n\n## Installation on Mac OS/X\n\n```bash\nbrew install gd\nnpm install node-gd\n```\n\n## Installation on Windows 7\n\n    please open an issue if you have the answer. i\'m sure it works, i just don\'t have ready the exact commands.\n\n## Usage\n\n```coffeescript\n# Require library\ngd = require \'node-gd\'\n\n# Create blank new image in memory\noutput_img = gd.create width, height\n\n# Load existing image file on disk into memory\ngd.openPng "test.png", (err, input_img) ->\n  console.log "width: ", input_img.width\n  console.log "height: ", input_img.width\n\n# Render input over the top of output\ninput_img.copyResampled output_img, dstX, dstY, srcX, srcY, dstW, dstH, srcW, srcH\n\n# Write image buffer to disk\noutput_img.savePng "out.png", 0, (err) ->\n  console.log "image saved!"\n```\n\nAs usual, for the latest examples, review the easy-to-follow [./test/test.coffee](https://github.com/mikesmullin/node-gd/blob/master/test/test.coffee).\n\n## Related\n\n* [Original author\'s repo](https://github.com/taggon/node-gd)\n* [node-canvas](https://github.com/LearnBoost/node-canvas) uses libcairo to emulate browser HTML5 Canvas\' image manipulation abilities within Node.js\n* [node-o3-canvas](https://github.com/ajaxorg/node-o3-canvas) uses libcairo to emulate browser HTML5 Canvas\' image manipulation abilities within Node.js\n* [node-image](https://github.com/pkrumins/node-image)\n',
+350 silly resolved     _id: 'node-gd@0.2.3',
+350 silly resolved     dist: { shasum: '22488d50f19b1264129746a184c6b3bb672c99b4' },
+350 silly resolved     _from: 'node-gd@*',
+350 silly resolved     _resolved: 'https://registry.npmjs.org/node-gd/-/node-gd-0.2.3.tgz' },
+350 silly resolved   { name: 'async2',
+350 silly resolved     version: '0.1.7',
+350 silly resolved     description: 'Better async utilities for node and the browser',
+350 silly resolved     main: 'js/async2.js',
+350 silly resolved     directories: { test: 'test' },
+350 silly resolved     scripts:
+350 silly resolved      { pretest: 'coffee --bare -o js coffee/async2.coffee',
+350 silly resolved        test: 'mocha --timeout 100000 --reporter spec --bail --ui bdd --colors --timeout 10000 --compilers coffee:coffee-script --require coffee-script --require test/helpers.coffee test/test.coffee' },
+350 silly resolved     repository: { type: 'git', url: 'git://github.com/mikesmullin/async2.git' },
+350 silly resolved     keywords:
+350 silly resolved      [ 'async',
+350 silly resolved        'asynchronous',
+350 silly resolved        'flow',
+350 silly resolved        'control',
+350 silly resolved        'library',
+350 silly resolved        'node.js',
+350 silly resolved        'node',
+350 silly resolved        'javascript',
+350 silly resolved        'better',
+350 silly resolved        'minimalist',
+350 silly resolved        'improved',
+350 silly resolved        'alternative' ],
+350 silly resolved     author: { name: 'Mike Smullin', email: 'mike@smullindesign.com' },
+350 silly resolved     license: 'MIT',
+350 silly resolved     readmeFilename: 'README.md',
+350 silly resolved     devDependencies: { chai: '*' },
+350 silly resolved     readme: '# Async2.js\n\nBetter asynchronous javascript flow control in [132 lines (5.7KB)](https://github.com/mikesmullin/async2/blob/stable/js/async2.js) or [4KB minified](https://raw.github.com/mikesmullin/async2/stable/js/async2.min.js) or [1285 bytes gzipped](https://raw.github.com/mikesmullin/async2/stable/js/async2.min.js.gz).\n\nInspired by [async](https://github.com/caolan/async),\n[mini-async](https://github.com/mikesmullin/mini-async),\n[Mocha](https://github.com/visionmedia/mocha),\n[Chai](https://github.com/chaijs/chai),\n[Should.js](https://github.com/visionmedia/should.js/), and\n[IcedCoffeeScript](http://maxtaco.github.com/coffee-script/)/[TameJs](http://tamejs.org/)\nlibraries.\n\n### Flow Control\n\n* [new / flow / with](#find-examples-in-the-tests) : optional chainable instantiator; receives beginning result; useful in series\n* [beforeAll / before](#find-examples-in-the-tests) : non-blocking function called once before first task\n* [beforeEach](#find-examples-in-the-tests) : non-blocking function called once before each task\n* [serial / series / blocking / waterfall](#find-examples-in-the-tests) : blocking function called in order; results always waterfalled\n* [parallel / nonblocking](#find-examples-in-the-tests) : non-blocking function called in order\n* [do / then / try / begin / start / auto](#find-examples-in-the-tests) : optionally blocking function called in order; determined by length of arguments callback expects\n* [afterEach / between / inbetween](#find-examples-in-the-tests) : non-blocking function called once after each task\n* [error / catch / rescue](#find-examples-in-the-tests) : blocking function called when error occurs\n* [success / else](#find-examples-in-the-tests) : non-blocking function called after all tasks have completed, but only if no errors occur\n* [end / finally / ensure / afterAll / after / complete / done / go](#find-examples-in-the-tests) : blocking function called after all tasks have completed\n* [whilst](#find-examples-in-the-tests) : provide test, iterator, and callback functions. will iterate until test passes, then execute callback\n* [delay](#find-examples-in-the-tests) : inverts argument order to `setTimeout()` for easier CoffeeScript markup\n* [push / nextTickGroup](#find-examples-in-the-tests) : serially-queued automatic-kick-start execution like `nextTick()` or `setTimeout(f,0)`, but grouped\n\n## Quick Examples\n\n### First, reflect upon our haiku mantra:\n\n    5  thoughtful single-chain\n    7  order of operations\n    5  escape callback hell!\n\n<a name="find-examples-in-the-tests" />\n\n### Then, observe in action:\n\nPartially backward-compatible with async.js:\n\n```coffeescript\nasync.series [\n -> async.delay 100, @\n -> async.delay 50, @\n], ->\n  assert.closeTo 100+50, since(start), 25\n\n  async.parallel [\n   -> async.delay 100, @\n   -> async.delay 50, @\n  ], ->\n    assert.closeTo (100+50)+100, since(start), 25\n    done()\n```\n\nBut better thanks to several improvements:\n\n```coffeescript\nasync\n  .serial((next) ->\n    assert.typeOf next, \'function\'\n    next null, \'async data\' # e.g., fs.readFile(), or jQuery.ajax()\n  )\n  .parallel((data, next) ->\n    assert.equal data, \'async data\'\n    assert.typeOf next, \'function\'\n    next null\n  )\n  .parallel((data, next) ->\n    assert.equal data, \'async data\'\n    assert.typeOf next, \'function\'\n    next null\n  )\n  .serial(->\n    assert.typeOf @, \'function\' # `this` === `next`\n    @ null, 1, 2, 3, 4, 5, 6\n  )\n  .end (err, results...) ->\n    assert.equal err, null\n    assert.deepEqual results, [ 1, 2, 3, 4, 5, 6 ]\n    done()\n```\n\nIn fact, way better:\n\n```coffeescript\nflow = new async\nfor i in [1..10]\n  ((i) ->\n    method = if i%3 then \'parallel\' else \'serial\' # an overcomplicated display of flexibility\n    flow[method] (next) ->\n      async.delay 25, ->\n        console.log "#{method} #{i}"\n        next()\n  )(i)\nflow.go (err, results...) ->\n  console.log \'try this in async.js!\'\n  done()\n```\n\nIt really makes you wonder: how long have we needed a good asynchronous flow control library, and not known it?\n\nExhibit A: Look familiar to any jQuery.ajax() developers?\n\n```coffeescript\ncalled = false\nasync\n  before: ->\n    #loading.show()\n    called = true\n  do: (next) ->\n    # main logic\n    assert.ok called\n    next \'err\', \'result\'\n  error: (err) ->\n    assert.equal \'err\', \'err\'\n    #alert err\n  success: (result) ->\n    assert false, \'success() should not have been called here\'\n    #console.log data\n  complete: (err, result) ->\n    assert.equal err, \'err\'\n    assert.equal result, \'result\'\n    #loading.hide()\n    done()\n```\n\nExhibit B: How about to you JavaScript developers?\n\n```coffeescript\ncalled = false\nasync\n  .try(->\n    @ new Error \'thrown node cb style\'\n  )\n  .catch((err) ->\n    called = true\n    assert.equal \'\'+err, \'Error: thrown node cb style\'\n  )\n  .finally (err, result) ->\n    assert.ok called\n    assert.equal \'\'+err, \'Error: thrown node cb style\'\n    assert.typeOf result, \'undefined\'\n    done()\n```\n\nExhibit C: Any Rubists in the audience?\n\n```coffeescript\ncalled = false\nasync\n  .begin(->\n    @ new Error \'thrown node cb style\'\n  )\n  .rescue((err) ->\n    called = true\n    assert.equal \'\'+err, \'Error: thrown node cb style\'\n  )\n  .else((result) ->\n    console.log \'Else\'\n    assert false, \'else() should not have been called here\'\n  )\n  .ensure (err, result) ->\n    assert.ok called\n    assert.equal \'\'+err, \'Error: thrown node cb style\'\n    assert.typeOf result, \'undefined\'\n    done()\n```\n\nAdditionally, `nextTick()` users will appreciate the lazy man\'s grouped blocking serial execution:\n\n```coffeescript\nasync.push \'A\', (next) ->\n  setTimeout (-> console.log \'second\'; next()), 100\nasync.push \'B\', (next) ->\n  setTimeout (-> console.log \'first\'; next()), 10\nasync.push \'A\', (next) ->\n  setTimeout (-> console.log \'third\'; next()), 1\n# outputs:\n# first\n# second\n# third\n```\n\nThese are just a few of all the things it can do.\n\nFor the latest examples, review the easy-to-follow [./test/test.coffee](https://github.com/mikesmullin/async2/blob/stable/test/test.coffee).\n\nOr try it immediately in your browser with [codepen](http://codepen.io/mikesmullin/pen/tscfD).\n\n## FAQ\n\n * **great another high horsed coffeescripter!**\n   i just prefer to author in coffee. the .js and .js.min versions are in here too.\n   you can do all the same things; in fact it is partially backward-compatible with async.js\n   but in less lines of .js\n   less bytes i should say; its a minimalist implementation\n   with some improvements.\n\n * **have you tried pull requests to the async repo?**\n   i may if i get positive response\n   but its 100% refactor from ground-up; its not just a pull request.\n   also any snide remarks are meant to encourage spirited but constructive debate.\n   i\'m not trying to be divisive. just had a need with a short timeline :)\n   i know a lot of people get used to the way things are...\n\n\nTODO\n----\n\n* i could name variables better to assist with minification but its already pretty small. i may do it later though.\n\n* potential node.js madness: each series becomes its own cpu thread, each parallel becomes its own gpu thread.\n\n> "GPUs have evolved to the point where many real-world applications are easily implemented on them and run significantly faster than on multi-core systems. Future computing architectures will be hybrid systems with parallel-core GPUs working in tandem with multi-core CPUs.\'\n-- [Professor Jack Dongarra](http://www.nvidia.com/object/what-is-gpu-computing.html),\nDirector of the Innovative Computing Laboratory,\nThe University of Tennessee\n',
+350 silly resolved     _id: 'async2@0.1.7',
+350 silly resolved     dist: { shasum: 'c80c40fb19217ebde360c9b5f8a8c3de361a8d7d' },
+350 silly resolved     _from: 'async2@*',
+350 silly resolved     _resolved: 'https://registry.npmjs.org/async2/-/async2-0.1.7.tgz' } ]
+351 info install glob@3.2.8 into /Users/Ashton/Dropbox/freelanceThis/node_modules/coffee-sprites
+352 info install node-gd@0.2.3 into /Users/Ashton/Dropbox/freelanceThis/node_modules/coffee-sprites
+353 info install async2@0.1.7 into /Users/Ashton/Dropbox/freelanceThis/node_modules/coffee-sprites
+354 info installOne glob@3.2.8
+355 info installOne node-gd@0.2.3
+356 info installOne async2@0.1.7
+357 verbose from cache /Users/Ashton/.npm/glob/3.2.8/package/package.json
+358 info /Users/Ashton/Dropbox/freelanceThis/node_modules/coffee-sprites/node_modules/glob unbuild
+359 verbose read json /Users/Ashton/Dropbox/freelanceThis/node_modules/coffee-sprites/node_modules/glob/package.json
+360 verbose from cache /Users/Ashton/.npm/node-gd/0.2.3/package/package.json
+361 info /Users/Ashton/Dropbox/freelanceThis/node_modules/coffee-sprites/node_modules/node-gd unbuild
+362 verbose read json /Users/Ashton/Dropbox/freelanceThis/node_modules/coffee-sprites/node_modules/node-gd/package.json
+363 verbose from cache /Users/Ashton/.npm/async2/0.1.7/package/package.json
+364 info /Users/Ashton/Dropbox/freelanceThis/node_modules/coffee-sprites/node_modules/async2 unbuild
+365 verbose read json /Users/Ashton/Dropbox/freelanceThis/node_modules/coffee-sprites/node_modules/async2/package.json
+366 verbose tar unpack /Users/Ashton/.npm/glob/3.2.8/package.tgz
+367 silly lockFile fcf1794c-coffee-sprites-node-modules-glob /Users/Ashton/Dropbox/freelanceThis/node_modules/coffee-sprites/node_modules/glob
+368 verbose lock /Users/Ashton/Dropbox/freelanceThis/node_modules/coffee-sprites/node_modules/glob /Users/Ashton/.npm/fcf1794c-coffee-sprites-node-modules-glob.lock
+369 silly lockFile b009bcf7-shton-npm-glob-3-2-8-package-tgz /Users/Ashton/.npm/glob/3.2.8/package.tgz
+370 verbose lock /Users/Ashton/.npm/glob/3.2.8/package.tgz /Users/Ashton/.npm/b009bcf7-shton-npm-glob-3-2-8-package-tgz.lock
+371 verbose tar unpack /Users/Ashton/.npm/node-gd/0.2.3/package.tgz
+372 silly lockFile e0ce5002-fee-sprites-node-modules-node-gd /Users/Ashton/Dropbox/freelanceThis/node_modules/coffee-sprites/node_modules/node-gd
+373 verbose lock /Users/Ashton/Dropbox/freelanceThis/node_modules/coffee-sprites/node_modules/node-gd /Users/Ashton/.npm/e0ce5002-fee-sprites-node-modules-node-gd.lock
+374 silly lockFile 720d590f-on-npm-node-gd-0-2-3-package-tgz /Users/Ashton/.npm/node-gd/0.2.3/package.tgz
+375 verbose lock /Users/Ashton/.npm/node-gd/0.2.3/package.tgz /Users/Ashton/.npm/720d590f-on-npm-node-gd-0-2-3-package-tgz.lock
+376 verbose tar unpack /Users/Ashton/.npm/async2/0.1.7/package.tgz
+377 silly lockFile 481d04ff-ffee-sprites-node-modules-async2 /Users/Ashton/Dropbox/freelanceThis/node_modules/coffee-sprites/node_modules/async2
+378 verbose lock /Users/Ashton/Dropbox/freelanceThis/node_modules/coffee-sprites/node_modules/async2 /Users/Ashton/.npm/481d04ff-ffee-sprites-node-modules-async2.lock
+379 silly lockFile 1b6b0a82-ton-npm-async2-0-1-7-package-tgz /Users/Ashton/.npm/async2/0.1.7/package.tgz
+380 verbose lock /Users/Ashton/.npm/async2/0.1.7/package.tgz /Users/Ashton/.npm/1b6b0a82-ton-npm-async2-0-1-7-package-tgz.lock
+381 silly gunzTarPerm modes [ '755', '644' ]
+382 silly gunzTarPerm modes [ '755', '644' ]
+383 silly gunzTarPerm modes [ '755', '644' ]
+384 silly gunzTarPerm extractEntry package.json
+385 silly gunzTarPerm extractEntry package.json
+386 silly gunzTarPerm extractEntry package.json
+387 silly gunzTarPerm extractEntry .npmignore
+388 silly gunzTarPerm extractEntry README.md
+389 silly gunzTarPerm extractEntry .npmignore
+390 silly gunzTarPerm extractEntry README.md
+391 silly gunzTarPerm extractEntry .npmignore
+392 silly gunzTarPerm extractEntry README.md
+393 silly gunzTarPerm extractEntry LICENSE
+394 silly gunzTarPerm extractEntry glob.js
+395 silly gunzTarPerm extractEntry coffee/async2.coffee
+396 silly gunzTarPerm extractEntry js/async2.js
+397 silly gunzTarPerm extractEntry js/async2.min.js
+398 silly gunzTarPerm extractEntry js/async2.min.js.gz
+399 silly gunzTarPerm extractEntry binding.gyp
+400 silly gunzTarPerm extractEntry coffee/node-gd.coffee
+401 silly gunzTarPerm extractEntry .travis.yml
+402 silly gunzTarPerm extractEntry cpp/node-gd.cpp
+403 silly gunzTarPerm extractEntry js/node-gd.js
+404 silly gunzTarPerm extractEntry examples/g.js
+405 silly gunzTarPerm extractEntry examples/usr-local.js
+406 silly gunzTarPerm extractEntry test/00-setup.js
+407 silly gunzTarPerm extractEntry test/stat.js
+408 silly gunzTarPerm extractEntry test/cwd-test.js
+409 silly gunzTarPerm extractEntry test/globstar-match.js
+410 verbose read json /Users/Ashton/Dropbox/freelanceThis/node_modules/coffee-sprites/node_modules/async2/package.json
+411 silly gunzTarPerm extractEntry test/mark.js
+412 silly gunzTarPerm extractEntry test/bash-comparison.js
+413 silly lockFile 481d04ff-ffee-sprites-node-modules-async2 /Users/Ashton/Dropbox/freelanceThis/node_modules/coffee-sprites/node_modules/async2
+414 silly lockFile 481d04ff-ffee-sprites-node-modules-async2 /Users/Ashton/Dropbox/freelanceThis/node_modules/coffee-sprites/node_modules/async2
+415 silly gunzTarPerm extractEntry test/nocase-nomagic.js
+416 silly gunzTarPerm extractEntry test/pause-resume.js
+417 silly lockFile 1b6b0a82-ton-npm-async2-0-1-7-package-tgz /Users/Ashton/.npm/async2/0.1.7/package.tgz
+418 silly lockFile 1b6b0a82-ton-npm-async2-0-1-7-package-tgz /Users/Ashton/.npm/async2/0.1.7/package.tgz
+419 info preinstall async2@0.1.7
+420 silly gunzTarPerm extractEntry test/root-nomount.js
+421 silly gunzTarPerm extractEntry test/root.js
+422 verbose from cache /Users/Ashton/Dropbox/freelanceThis/node_modules/coffee-sprites/node_modules/async2/package.json
+423 verbose readDependencies using package.json deps
+424 verbose from cache /Users/Ashton/Dropbox/freelanceThis/node_modules/coffee-sprites/node_modules/async2/package.json
+425 verbose readDependencies using package.json deps
+426 silly resolved []
+427 verbose about to build /Users/Ashton/Dropbox/freelanceThis/node_modules/coffee-sprites/node_modules/async2
+428 info build /Users/Ashton/Dropbox/freelanceThis/node_modules/coffee-sprites/node_modules/async2
+429 verbose from cache /Users/Ashton/Dropbox/freelanceThis/node_modules/coffee-sprites/node_modules/async2/package.json
+430 verbose linkStuff [ false,
+430 verbose linkStuff   false,
+430 verbose linkStuff   false,
+430 verbose linkStuff   '/Users/Ashton/Dropbox/freelanceThis/node_modules/coffee-sprites/node_modules' ]
+431 info linkStuff async2@0.1.7
+432 verbose linkBins async2@0.1.7
+433 verbose linkMans async2@0.1.7
+434 verbose rebuildBundles async2@0.1.7
+435 info install async2@0.1.7
+436 info postinstall async2@0.1.7
+437 silly gunzTarPerm extractEntry test/zz-cleanup.js
+438 silly gunzTarPerm extractEntry test/new-glob-optional-options.js
+439 silly gunzTarPerm extractEntry test/bash-results.json
+440 verbose read json /Users/Ashton/Dropbox/freelanceThis/node_modules/coffee-sprites/node_modules/node-gd/package.json
+441 silly lockFile e0ce5002-fee-sprites-node-modules-node-gd /Users/Ashton/Dropbox/freelanceThis/node_modules/coffee-sprites/node_modules/node-gd
+442 silly lockFile e0ce5002-fee-sprites-node-modules-node-gd /Users/Ashton/Dropbox/freelanceThis/node_modules/coffee-sprites/node_modules/node-gd
+443 silly lockFile 720d590f-on-npm-node-gd-0-2-3-package-tgz /Users/Ashton/.npm/node-gd/0.2.3/package.tgz
+444 silly lockFile 720d590f-on-npm-node-gd-0-2-3-package-tgz /Users/Ashton/.npm/node-gd/0.2.3/package.tgz
+445 info preinstall node-gd@0.2.3
+446 verbose from cache /Users/Ashton/Dropbox/freelanceThis/node_modules/coffee-sprites/node_modules/node-gd/package.json
+447 verbose readDependencies using package.json deps
+448 verbose from cache /Users/Ashton/Dropbox/freelanceThis/node_modules/coffee-sprites/node_modules/node-gd/package.json
+449 verbose readDependencies using package.json deps
+450 silly resolved []
+451 verbose about to build /Users/Ashton/Dropbox/freelanceThis/node_modules/coffee-sprites/node_modules/node-gd
+452 info build /Users/Ashton/Dropbox/freelanceThis/node_modules/coffee-sprites/node_modules/node-gd
+453 verbose from cache /Users/Ashton/Dropbox/freelanceThis/node_modules/coffee-sprites/node_modules/node-gd/package.json
+454 verbose linkStuff [ false,
+454 verbose linkStuff   false,
+454 verbose linkStuff   false,
+454 verbose linkStuff   '/Users/Ashton/Dropbox/freelanceThis/node_modules/coffee-sprites/node_modules' ]
+455 info linkStuff node-gd@0.2.3
+456 verbose linkBins node-gd@0.2.3
+457 verbose linkMans node-gd@0.2.3
+458 verbose rebuildBundles node-gd@0.2.3
+459 info install node-gd@0.2.3
+460 verbose unsafe-perm in lifecycle true
+461 silly exec sh "-c" "node-gyp rebuild"
+462 silly sh,-c,node-gyp rebuild,/Users/Ashton/Dropbox/freelanceThis/node_modules/coffee-sprites/node_modules/node-gd spawning
+463 verbose read json /Users/Ashton/Dropbox/freelanceThis/node_modules/coffee-sprites/node_modules/glob/package.json
+464 silly lockFile fcf1794c-coffee-sprites-node-modules-glob /Users/Ashton/Dropbox/freelanceThis/node_modules/coffee-sprites/node_modules/glob
+465 silly lockFile fcf1794c-coffee-sprites-node-modules-glob /Users/Ashton/Dropbox/freelanceThis/node_modules/coffee-sprites/node_modules/glob
+466 silly lockFile b009bcf7-shton-npm-glob-3-2-8-package-tgz /Users/Ashton/.npm/glob/3.2.8/package.tgz
+467 silly lockFile b009bcf7-shton-npm-glob-3-2-8-package-tgz /Users/Ashton/.npm/glob/3.2.8/package.tgz
+468 info preinstall glob@3.2.8
+469 verbose from cache /Users/Ashton/Dropbox/freelanceThis/node_modules/coffee-sprites/node_modules/glob/package.json
+470 verbose readDependencies using package.json deps
+471 verbose from cache /Users/Ashton/Dropbox/freelanceThis/node_modules/coffee-sprites/node_modules/glob/package.json
+472 verbose readDependencies using package.json deps
+473 verbose cache add [ 'minimatch@~0.2.11', null ]
+474 verbose cache add name=undefined spec="minimatch@~0.2.11" args=["minimatch@~0.2.11",null]
+475 verbose parsed url { protocol: null,
+475 verbose parsed url   slashes: null,
+475 verbose parsed url   auth: null,
+475 verbose parsed url   host: null,
+475 verbose parsed url   port: null,
+475 verbose parsed url   hostname: null,
+475 verbose parsed url   hash: null,
+475 verbose parsed url   search: null,
+475 verbose parsed url   query: null,
+475 verbose parsed url   pathname: 'minimatch@~0.2.11',
+475 verbose parsed url   path: 'minimatch@~0.2.11',
+475 verbose parsed url   href: 'minimatch@~0.2.11' }
+476 verbose cache add name="minimatch" spec="~0.2.11" args=["minimatch","~0.2.11"]
+477 verbose parsed url { protocol: null,
+477 verbose parsed url   slashes: null,
+477 verbose parsed url   auth: null,
+477 verbose parsed url   host: null,
+477 verbose parsed url   port: null,
+477 verbose parsed url   hostname: null,
+477 verbose parsed url   hash: null,
+477 verbose parsed url   search: null,
+477 verbose parsed url   query: null,
+477 verbose parsed url   pathname: '~0.2.11',
+477 verbose parsed url   path: '~0.2.11',
+477 verbose parsed url   href: '~0.2.11' }
+478 verbose addNamed [ 'minimatch', '~0.2.11' ]
+479 verbose addNamed [ null, '>=0.2.11- <0.3.0-' ]
+480 silly lockFile 94473efb-minimatch-0-2-11 minimatch@~0.2.11
+481 verbose lock minimatch@~0.2.11 /Users/Ashton/.npm/94473efb-minimatch-0-2-11.lock
+482 verbose cache add [ 'inherits@2', null ]
+483 verbose cache add name=undefined spec="inherits@2" args=["inherits@2",null]
+484 verbose parsed url { protocol: null,
+484 verbose parsed url   slashes: null,
+484 verbose parsed url   auth: null,
+484 verbose parsed url   host: null,
+484 verbose parsed url   port: null,
+484 verbose parsed url   hostname: null,
+484 verbose parsed url   hash: null,
+484 verbose parsed url   search: null,
+484 verbose parsed url   query: null,
+484 verbose parsed url   pathname: 'inherits@2',
+484 verbose parsed url   path: 'inherits@2',
+484 verbose parsed url   href: 'inherits@2' }
+485 verbose cache add name="inherits" spec="2" args=["inherits","2"]
+486 verbose parsed url { protocol: null,
+486 verbose parsed url   slashes: null,
+486 verbose parsed url   auth: null,
+486 verbose parsed url   host: null,
+486 verbose parsed url   port: null,
+486 verbose parsed url   hostname: null,
+486 verbose parsed url   hash: null,
+486 verbose parsed url   search: null,
+486 verbose parsed url   query: null,
+486 verbose parsed url   pathname: '2',
+486 verbose parsed url   path: '2',
+486 verbose parsed url   href: '2' }
+487 verbose addNamed [ 'inherits', '2' ]
+488 verbose addNamed [ null, '>=2.0.0- <3.0.0-' ]
+489 silly lockFile 1f7ff4de-inherits-2 inherits@2
+490 verbose lock inherits@2 /Users/Ashton/.npm/1f7ff4de-inherits-2.lock
+491 silly addNameRange { name: 'minimatch', range: '>=0.2.11- <0.3.0-', hasData: false }
+492 silly addNameRange { name: 'inherits', range: '>=2.0.0- <3.0.0-', hasData: false }
+493 verbose url raw minimatch
+494 verbose url resolving [ 'https://registry.npmjs.org/', './minimatch' ]
+495 verbose url resolved https://registry.npmjs.org/minimatch
+496 info trying registry request attempt 1 at 00:54:25
+497 verbose etag "7QPZ03LHQSWEIFFEFAYOJSCZ9"
+498 http GET https://registry.npmjs.org/minimatch
+499 verbose url raw inherits
+500 verbose url resolving [ 'https://registry.npmjs.org/', './inherits' ]
+501 verbose url resolved https://registry.npmjs.org/inherits
+502 info trying registry request attempt 1 at 00:54:25
+503 verbose etag "CAKHEJPOEAALGJCL2TO0QPZW0"
+504 http GET https://registry.npmjs.org/inherits
+505 http 304 https://registry.npmjs.org/inherits
+506 silly registry.get cb [ 304,
+506 silly registry.get   { date: 'Sat, 22 Feb 2014 05:54:25 GMT',
+506 silly registry.get     server: 'Apache',
+506 silly registry.get     connection: 'Keep-Alive',
+506 silly registry.get     'keep-alive': 'timeout=10, max=50',
+506 silly registry.get     etag: '"CAKHEJPOEAALGJCL2TO0QPZW0"',
+506 silly registry.get     'cache-control': 'max-age=1',
+506 silly registry.get     vary: 'Accept' } ]
+507 verbose etag inherits from cache
+508 silly addNameRange number 2 { name: 'inherits', range: '>=2.0.0- <3.0.0-', hasData: true }
+509 silly addNameRange versions [ 'inherits', [ '1.0.0', '2.0.0', '2.0.1' ] ]
+510 verbose addNamed [ 'inherits', '2.0.1' ]
+511 verbose addNamed [ '2.0.1', '2.0.1' ]
+512 silly lockFile 2b2e8f1b-inherits-2-0-1 inherits@2.0.1
+513 verbose lock inherits@2.0.1 /Users/Ashton/.npm/2b2e8f1b-inherits-2-0-1.lock
+514 http 304 https://registry.npmjs.org/minimatch
+515 silly registry.get cb [ 304,
+515 silly registry.get   { date: 'Sat, 22 Feb 2014 05:54:25 GMT',
+515 silly registry.get     server: 'Apache',
+515 silly registry.get     connection: 'Keep-Alive',
+515 silly registry.get     'keep-alive': 'timeout=10, max=50',
+515 silly registry.get     etag: '"7QPZ03LHQSWEIFFEFAYOJSCZ9"',
+515 silly registry.get     'cache-control': 'max-age=1',
+515 silly registry.get     vary: 'Accept' } ]
+516 verbose etag minimatch from cache
+517 verbose read json /Users/Ashton/.npm/inherits/2.0.1/package/package.json
+518 silly lockFile 2b2e8f1b-inherits-2-0-1 inherits@2.0.1
+519 silly lockFile 2b2e8f1b-inherits-2-0-1 inherits@2.0.1
+520 silly addNameRange number 2 { name: 'minimatch', range: '>=0.2.11- <0.3.0-', hasData: true }
+521 silly addNameRange versions [ 'minimatch',
+521 silly addNameRange   [ '0.0.1',
+521 silly addNameRange     '0.0.2',
+521 silly addNameRange     '0.0.4',
+521 silly addNameRange     '0.0.5',
+521 silly addNameRange     '0.1.1',
+521 silly addNameRange     '0.1.2',
+521 silly addNameRange     '0.1.3',
+521 silly addNameRange     '0.1.4',
+521 silly addNameRange     '0.1.5',
+521 silly addNameRange     '0.2.0',
+521 silly addNameRange     '0.2.2',
+521 silly addNameRange     '0.2.3',
+521 silly addNameRange     '0.2.4',
+521 silly addNameRange     '0.2.5',
+521 silly addNameRange     '0.2.6',
+521 silly addNameRange     '0.2.7',
+521 silly addNameRange     '0.2.8',
+521 silly addNameRange     '0.2.9',
+521 silly addNameRange     '0.2.10',
+521 silly addNameRange     '0.2.11',
+521 silly addNameRange     '0.2.12',
+521 silly addNameRange     '0.2.13',
+521 silly addNameRange     '0.2.14' ] ]
+522 verbose addNamed [ 'minimatch', '0.2.14' ]
+523 verbose addNamed [ '0.2.14', '0.2.14' ]
+524 silly lockFile a72880d0-minimatch-0-2-14 minimatch@0.2.14
+525 verbose lock minimatch@0.2.14 /Users/Ashton/.npm/a72880d0-minimatch-0-2-14.lock
+526 silly lockFile 1f7ff4de-inherits-2 inherits@2
+527 silly lockFile 1f7ff4de-inherits-2 inherits@2
+528 verbose read json /Users/Ashton/.npm/minimatch/0.2.14/package/package.json
+529 silly lockFile a72880d0-minimatch-0-2-14 minimatch@0.2.14
+530 silly lockFile a72880d0-minimatch-0-2-14 minimatch@0.2.14
+531 silly lockFile 94473efb-minimatch-0-2-11 minimatch@~0.2.11
+532 silly lockFile 94473efb-minimatch-0-2-11 minimatch@~0.2.11
+533 silly resolved [ { name: 'inherits',
+533 silly resolved     description: 'Browser-friendly inheritance fully compatible with standard node.js inherits()',
+533 silly resolved     version: '2.0.1',
+533 silly resolved     keywords:
+533 silly resolved      [ 'inheritance',
+533 silly resolved        'class',
+533 silly resolved        'klass',
+533 silly resolved        'oop',
+533 silly resolved        'object-oriented',
+533 silly resolved        'inherits',
+533 silly resolved        'browser',
+533 silly resolved        'browserify' ],
+533 silly resolved     main: './inherits.js',
+533 silly resolved     browser: './inherits_browser.js',
+533 silly resolved     repository: { type: 'git', url: 'git://github.com/isaacs/inherits' },
+533 silly resolved     license: 'ISC',
+533 silly resolved     scripts: { test: 'node test' },
+533 silly resolved     readme: 'Browser-friendly inheritance fully compatible with standard node.js\n[inherits](http://nodejs.org/api/util.html#util_util_inherits_constructor_superconstructor).\n\nThis package exports standard `inherits` from node.js `util` module in\nnode environment, but also provides alternative browser-friendly\nimplementation through [browser\nfield](https://gist.github.com/shtylman/4339901). Alternative\nimplementation is a literal copy of standard one located in standalone\nmodule to avoid requiring of `util`. It also has a shim for old\nbrowsers with no `Object.create` support.\n\nWhile keeping you sure you are using standard `inherits`\nimplementation in node.js environment, it allows bundlers such as\n[browserify](https://github.com/substack/node-browserify) to not\ninclude full `util` package to your client code if all you need is\njust `inherits` function. It worth, because browser shim for `util`\npackage is large and `inherits` is often the single function you need\nfrom it.\n\nIt\'s recommended to use this package instead of\n`require(\'util\').inherits` for any code that has chances to be used\nnot only in node.js but in browser too.\n\n## usage\n\n```js\nvar inherits = require(\'inherits\');\n// then use exactly as the standard one\n```\n\n## note on version ~1.0\n\nVersion ~1.0 had completely different motivation and is not compatible\nneither with 2.0 nor with standard node.js `inherits`.\n\nIf you are using version ~1.0 and planning to switch to ~2.0, be\ncareful:\n\n* new version uses `super_` instead of `super` for referencing\n  superclass\n* new version overwrites current prototype while old one preserves any\n  existing fields on it\n',
+533 silly resolved     readmeFilename: 'README.md',
+533 silly resolved     _id: 'inherits@2.0.1',
+533 silly resolved     _from: 'inherits@2' },
+533 silly resolved   { author:
+533 silly resolved      { name: 'Isaac Z. Schlueter',
+533 silly resolved        email: 'i@izs.me',
+533 silly resolved        url: 'http://blog.izs.me' },
+533 silly resolved     name: 'minimatch',
+533 silly resolved     description: 'a glob matcher in javascript',
+533 silly resolved     version: '0.2.14',
+533 silly resolved     repository: { type: 'git', url: 'git://github.com/isaacs/minimatch.git' },
+533 silly resolved     main: 'minimatch.js',
+533 silly resolved     scripts: { test: 'tap test/*.js' },
+533 silly resolved     engines: { node: '*' },
+533 silly resolved     dependencies: { 'lru-cache': '2', sigmund: '~1.0.0' },
+533 silly resolved     devDependencies: { tap: '' },
+533 silly resolved     license:
+533 silly resolved      { type: 'MIT',
+533 silly resolved        url: 'http://github.com/isaacs/minimatch/raw/master/LICENSE' },
+533 silly resolved     readme: '# minimatch\n\nA minimal matching utility.\n\n[![Build Status](https://secure.travis-ci.org/isaacs/minimatch.png)](http://travis-ci.org/isaacs/minimatch)\n\n\nThis is the matching library used internally by npm.\n\nEventually, it will replace the C binding in node-glob.\n\nIt works by converting glob expressions into JavaScript `RegExp`\nobjects.\n\n## Usage\n\n```javascript\nvar minimatch = require("minimatch")\n\nminimatch("bar.foo", "*.foo") // true!\nminimatch("bar.foo", "*.bar") // false!\nminimatch("bar.foo", "*.+(bar|foo)", { debug: true }) // true, and noisy!\n```\n\n## Features\n\nSupports these glob features:\n\n* Brace Expansion\n* Extended glob matching\n* "Globstar" `**` matching\n\nSee:\n\n* `man sh`\n* `man bash`\n* `man 3 fnmatch`\n* `man 5 gitignore`\n\n## Minimatch Class\n\nCreate a minimatch object by instanting the `minimatch.Minimatch` class.\n\n```javascript\nvar Minimatch = require("minimatch").Minimatch\nvar mm = new Minimatch(pattern, options)\n```\n\n### Properties\n\n* `pattern` The original pattern the minimatch object represents.\n* `options` The options supplied to the constructor.\n* `set` A 2-dimensional array of regexp or string expressions.\n  Each row in the\n  array corresponds to a brace-expanded pattern.  Each item in the row\n  corresponds to a single path-part.  For example, the pattern\n  `{a,b/c}/d` would expand to a set of patterns like:\n\n        [ [ a, d ]\n        , [ b, c, d ] ]\n\n    If a portion of the pattern doesn\'t have any "magic" in it\n    (that is, it\'s something like `"foo"` rather than `fo*o?`), then it\n    will be left as a string rather than converted to a regular\n    expression.\n\n* `regexp` Created by the `makeRe` method.  A single regular expression\n  expressing the entire pattern.  This is useful in cases where you wish\n  to use the pattern somewhat like `fnmatch(3)` with `FNM_PATH` enabled.\n* `negate` True if the pattern is negated.\n* `comment` True if the pattern is a comment.\n* `empty` True if the pattern is `""`.\n\n### Methods\n\n* `makeRe` Generate the `regexp` member if necessary, and return it.\n  Will return `false` if the pattern is invalid.\n* `match(fname)` Return true if the filename matches the pattern, or\n  false otherwise.\n* `matchOne(fileArray, patternArray, partial)` Take a `/`-split\n  filename, and match it against a single row in the `regExpSet`.  This\n  method is mainly for internal use, but is exposed so that it can be\n  used by a glob-walker that needs to avoid excessive filesystem calls.\n\nAll other methods are internal, and will be called as necessary.\n\n## Functions\n\nThe top-level exported function has a `cache` property, which is an LRU\ncache set to store 100 items.  So, calling these methods repeatedly\nwith the same pattern and options will use the same Minimatch object,\nsaving the cost of parsing it multiple times.\n\n### minimatch(path, pattern, options)\n\nMain export.  Tests a path against the pattern using the options.\n\n```javascript\nvar isJS = minimatch(file, "*.js", { matchBase: true })\n```\n\n### minimatch.filter(pattern, options)\n\nReturns a function that tests its\nsupplied argument, suitable for use with `Array.filter`.  Example:\n\n```javascript\nvar javascripts = fileList.filter(minimatch.filter("*.js", {matchBase: true}))\n```\n\n### minimatch.match(list, pattern, options)\n\nMatch against the list of\nfiles, in the style of fnmatch or glob.  If nothing is matched, and\noptions.nonull is set, then return a list containing the pattern itself.\n\n```javascript\nvar javascripts = minimatch.match(fileList, "*.js", {matchBase: true}))\n```\n\n### minimatch.makeRe(pattern, options)\n\nMake a regular expression object from the pattern.\n\n## Options\n\nAll options are `false` by default.\n\n### debug\n\nDump a ton of stuff to stderr.\n\n### nobrace\n\nDo not expand `{a,b}` and `{1..3}` brace sets.\n\n### noglobstar\n\nDisable `**` matching against multiple folder names.\n\n### dot\n\nAllow patterns to match filenames starting with a period, even if\nthe pattern does not explicitly have a period in that spot.\n\nNote that by default, `a/**/b` will **not** match `a/.d/b`, unless `dot`\nis set.\n\n### noext\n\nDisable "extglob" style patterns like `+(a|b)`.\n\n### nocase\n\nPerform a case-insensitive match.\n\n### nonull\n\nWhen a match is not found by `minimatch.match`, return a list containing\nthe pattern itself.  When set, an empty list is returned if there are\nno matches.\n\n### matchBase\n\nIf set, then patterns without slashes will be matched\nagainst the basename of the path if it contains slashes.  For example,\n`a?b` would match the path `/xyz/123/acb`, but not `/xyz/acb/123`.\n\n### nocomment\n\nSuppress the behavior of treating `#` at the start of a pattern as a\ncomment.\n\n### nonegate\n\nSuppress the behavior of treating a leading `!` character as negation.\n\n### flipNegate\n\nReturns from negate expressions the same as if they were not negated.\n(Ie, true on a hit, false on a miss.)\n\n\n## Comparisons to other fnmatch/glob implementations\n\nWhile strict compliance with the existing standards is a worthwhile\ngoal, some discrepancies exist between minimatch and other\nimplementations, and are intentional.\n\nIf the pattern starts with a `!` character, then it is negated.  Set the\n`nonegate` flag to suppress this behavior, and treat leading `!`\ncharacters normally.  This is perhaps relevant if you wish to start the\npattern with a negative extglob pattern like `!(a|B)`.  Multiple `!`\ncharacters at the start of a pattern will negate the pattern multiple\ntimes.\n\nIf a pattern starts with `#`, then it is treated as a comment, and\nwill not match anything.  Use `\\#` to match a literal `#` at the\nstart of a line, or set the `nocomment` flag to suppress this behavior.\n\nThe double-star character `**` is supported by default, unless the\n`noglobstar` flag is set.  This is supported in the manner of bsdglob\nand bash 4.1, where `**` only has special significance if it is the only\nthing in a path part.  That is, `a/**/b` will match `a/x/y/b`, but\n`a/**b` will not.\n\nIf an escaped pattern has no matches, and the `nonull` flag is set,\nthen minimatch.match returns the pattern as-provided, rather than\ninterpreting the character escapes.  For example,\n`minimatch.match([], "\\\\*a\\\\?")` will return `"\\\\*a\\\\?"` rather than\n`"*a?"`.  This is akin to setting the `nullglob` option in bash, except\nthat it does not resolve escaped pattern characters.\n\nIf brace expansion is not disabled, then it is performed before any\nother interpretation of the glob pattern.  Thus, a pattern like\n`+(a|{b),c)}`, which would not be valid in bash or zsh, is expanded\n**first** into the set of `+(a|b)` and `+(a|c)`, and those patterns are\nchecked for validity.  Since those two are valid, matching proceeds.\n',
+533 silly resolved     readmeFilename: 'README.md',
+533 silly resolved     _id: 'minimatch@0.2.14',
+533 silly resolved     _from: 'minimatch@~0.2.11' } ]
+534 info install inherits@2.0.1 into /Users/Ashton/Dropbox/freelanceThis/node_modules/coffee-sprites/node_modules/glob
+535 info install minimatch@0.2.14 into /Users/Ashton/Dropbox/freelanceThis/node_modules/coffee-sprites/node_modules/glob
+536 info installOne inherits@2.0.1
+537 info installOne minimatch@0.2.14
+538 verbose from cache /Users/Ashton/.npm/inherits/2.0.1/package/package.json
+539 info /Users/Ashton/Dropbox/freelanceThis/node_modules/coffee-sprites/node_modules/glob/node_modules/inherits unbuild
+540 verbose read json /Users/Ashton/Dropbox/freelanceThis/node_modules/coffee-sprites/node_modules/glob/node_modules/inherits/package.json
+541 verbose from cache /Users/Ashton/.npm/minimatch/0.2.14/package/package.json
+542 info /Users/Ashton/Dropbox/freelanceThis/node_modules/coffee-sprites/node_modules/glob/node_modules/minimatch unbuild
+543 verbose read json /Users/Ashton/Dropbox/freelanceThis/node_modules/coffee-sprites/node_modules/glob/node_modules/minimatch/package.json
+544 verbose tar unpack /Users/Ashton/.npm/inherits/2.0.1/package.tgz
+545 silly lockFile b7162af5-dules-glob-node-modules-inherits /Users/Ashton/Dropbox/freelanceThis/node_modules/coffee-sprites/node_modules/glob/node_modules/inherits
+546 verbose lock /Users/Ashton/Dropbox/freelanceThis/node_modules/coffee-sprites/node_modules/glob/node_modules/inherits /Users/Ashton/.npm/b7162af5-dules-glob-node-modules-inherits.lock
+547 silly lockFile 3708b630-n-npm-inherits-2-0-1-package-tgz /Users/Ashton/.npm/inherits/2.0.1/package.tgz
+548 verbose lock /Users/Ashton/.npm/inherits/2.0.1/package.tgz /Users/Ashton/.npm/3708b630-n-npm-inherits-2-0-1-package-tgz.lock
+549 verbose tar unpack /Users/Ashton/.npm/minimatch/0.2.14/package.tgz
+550 silly lockFile 232e3116-ules-glob-node-modules-minimatch /Users/Ashton/Dropbox/freelanceThis/node_modules/coffee-sprites/node_modules/glob/node_modules/minimatch
+551 verbose lock /Users/Ashton/Dropbox/freelanceThis/node_modules/coffee-sprites/node_modules/glob/node_modules/minimatch /Users/Ashton/.npm/232e3116-ules-glob-node-modules-minimatch.lock
+552 silly lockFile f78d3b0e-npm-minimatch-0-2-14-package-tgz /Users/Ashton/.npm/minimatch/0.2.14/package.tgz
+553 verbose lock /Users/Ashton/.npm/minimatch/0.2.14/package.tgz /Users/Ashton/.npm/f78d3b0e-npm-minimatch-0-2-14-package-tgz.lock
+554 silly gunzTarPerm modes [ '755', '644' ]
+555 silly gunzTarPerm modes [ '755', '644' ]
+556 silly gunzTarPerm extractEntry package.json
+557 silly gunzTarPerm extractEntry package.json
+558 silly gunzTarPerm extractEntry README.md
+559 silly gunzTarPerm extractEntry LICENSE
+560 silly gunzTarPerm extractEntry .npmignore
+561 silly gunzTarPerm extractEntry README.md
+562 silly gunzTarPerm extractEntry inherits.js
+563 silly gunzTarPerm extractEntry inherits_browser.js
+564 silly gunzTarPerm extractEntry LICENSE
+565 silly gunzTarPerm extractEntry minimatch.js
+566 silly gunzTarPerm extractEntry test/basic.js
+567 silly gunzTarPerm extractEntry test.js
+568 silly gunzTarPerm extractEntry test/brace-expand.js
+569 silly gunzTarPerm extractEntry test/caching.js
+570 silly gunzTarPerm extractEntry test/defaults.js
+571 silly gunzTarPerm extractEntry test/extglob-ending-with-state-char.js
+572 verbose read json /Users/Ashton/Dropbox/freelanceThis/node_modules/coffee-sprites/node_modules/glob/node_modules/inherits/package.json
+573 silly lockFile b7162af5-dules-glob-node-modules-inherits /Users/Ashton/Dropbox/freelanceThis/node_modules/coffee-sprites/node_modules/glob/node_modules/inherits
+574 silly lockFile b7162af5-dules-glob-node-modules-inherits /Users/Ashton/Dropbox/freelanceThis/node_modules/coffee-sprites/node_modules/glob/node_modules/inherits
+575 silly lockFile 3708b630-n-npm-inherits-2-0-1-package-tgz /Users/Ashton/.npm/inherits/2.0.1/package.tgz
+576 silly lockFile 3708b630-n-npm-inherits-2-0-1-package-tgz /Users/Ashton/.npm/inherits/2.0.1/package.tgz
+577 info preinstall inherits@2.0.1
+578 verbose from cache /Users/Ashton/Dropbox/freelanceThis/node_modules/coffee-sprites/node_modules/glob/node_modules/inherits/package.json
+579 verbose readDependencies using package.json deps
+580 verbose from cache /Users/Ashton/Dropbox/freelanceThis/node_modules/coffee-sprites/node_modules/glob/node_modules/inherits/package.json
+581 verbose readDependencies using package.json deps
+582 silly resolved []
+583 verbose about to build /Users/Ashton/Dropbox/freelanceThis/node_modules/coffee-sprites/node_modules/glob/node_modules/inherits
+584 info build /Users/Ashton/Dropbox/freelanceThis/node_modules/coffee-sprites/node_modules/glob/node_modules/inherits
+585 verbose from cache /Users/Ashton/Dropbox/freelanceThis/node_modules/coffee-sprites/node_modules/glob/node_modules/inherits/package.json
+586 verbose linkStuff [ false,
+586 verbose linkStuff   false,
+586 verbose linkStuff   false,
+586 verbose linkStuff   '/Users/Ashton/Dropbox/freelanceThis/node_modules/coffee-sprites/node_modules/glob/node_modules' ]
+587 info linkStuff inherits@2.0.1
+588 verbose linkBins inherits@2.0.1
+589 verbose linkMans inherits@2.0.1
+590 verbose rebuildBundles inherits@2.0.1
+591 info install inherits@2.0.1
+592 info postinstall inherits@2.0.1
+593 verbose read json /Users/Ashton/Dropbox/freelanceThis/node_modules/coffee-sprites/node_modules/glob/node_modules/minimatch/package.json
+594 silly lockFile 232e3116-ules-glob-node-modules-minimatch /Users/Ashton/Dropbox/freelanceThis/node_modules/coffee-sprites/node_modules/glob/node_modules/minimatch
+595 silly lockFile 232e3116-ules-glob-node-modules-minimatch /Users/Ashton/Dropbox/freelanceThis/node_modules/coffee-sprites/node_modules/glob/node_modules/minimatch
+596 silly lockFile f78d3b0e-npm-minimatch-0-2-14-package-tgz /Users/Ashton/.npm/minimatch/0.2.14/package.tgz
+597 silly lockFile f78d3b0e-npm-minimatch-0-2-14-package-tgz /Users/Ashton/.npm/minimatch/0.2.14/package.tgz
+598 info preinstall minimatch@0.2.14
+599 verbose from cache /Users/Ashton/Dropbox/freelanceThis/node_modules/coffee-sprites/node_modules/glob/node_modules/minimatch/package.json
+600 verbose readDependencies using package.json deps
+601 verbose from cache /Users/Ashton/Dropbox/freelanceThis/node_modules/coffee-sprites/node_modules/glob/node_modules/minimatch/package.json
+602 verbose readDependencies using package.json deps
+603 verbose cache add [ 'lru-cache@2', null ]
+604 verbose cache add name=undefined spec="lru-cache@2" args=["lru-cache@2",null]
+605 verbose parsed url { protocol: null,
+605 verbose parsed url   slashes: null,
+605 verbose parsed url   auth: null,
+605 verbose parsed url   host: null,
+605 verbose parsed url   port: null,
+605 verbose parsed url   hostname: null,
+605 verbose parsed url   hash: null,
+605 verbose parsed url   search: null,
+605 verbose parsed url   query: null,
+605 verbose parsed url   pathname: 'lru-cache@2',
+605 verbose parsed url   path: 'lru-cache@2',
+605 verbose parsed url   href: 'lru-cache@2' }
+606 verbose cache add name="lru-cache" spec="2" args=["lru-cache","2"]
+607 verbose parsed url { protocol: null,
+607 verbose parsed url   slashes: null,
+607 verbose parsed url   auth: null,
+607 verbose parsed url   host: null,
+607 verbose parsed url   port: null,
+607 verbose parsed url   hostname: null,
+607 verbose parsed url   hash: null,
+607 verbose parsed url   search: null,
+607 verbose parsed url   query: null,
+607 verbose parsed url   pathname: '2',
+607 verbose parsed url   path: '2',
+607 verbose parsed url   href: '2' }
+608 verbose addNamed [ 'lru-cache', '2' ]
+609 verbose addNamed [ null, '>=2.0.0- <3.0.0-' ]
+610 silly lockFile b4f9d1ff-lru-cache-2 lru-cache@2
+611 verbose lock lru-cache@2 /Users/Ashton/.npm/b4f9d1ff-lru-cache-2.lock
+612 verbose cache add [ 'sigmund@~1.0.0', null ]
+613 verbose cache add name=undefined spec="sigmund@~1.0.0" args=["sigmund@~1.0.0",null]
+614 verbose parsed url { protocol: null,
+614 verbose parsed url   slashes: null,
+614 verbose parsed url   auth: null,
+614 verbose parsed url   host: null,
+614 verbose parsed url   port: null,
+614 verbose parsed url   hostname: null,
+614 verbose parsed url   hash: null,
+614 verbose parsed url   search: null,
+614 verbose parsed url   query: null,
+614 verbose parsed url   pathname: 'sigmund@~1.0.0',
+614 verbose parsed url   path: 'sigmund@~1.0.0',
+614 verbose parsed url   href: 'sigmund@~1.0.0' }
+615 verbose cache add name="sigmund" spec="~1.0.0" args=["sigmund","~1.0.0"]
+616 verbose parsed url { protocol: null,
+616 verbose parsed url   slashes: null,
+616 verbose parsed url   auth: null,
+616 verbose parsed url   host: null,
+616 verbose parsed url   port: null,
+616 verbose parsed url   hostname: null,
+616 verbose parsed url   hash: null,
+616 verbose parsed url   search: null,
+616 verbose parsed url   query: null,
+616 verbose parsed url   pathname: '~1.0.0',
+616 verbose parsed url   path: '~1.0.0',
+616 verbose parsed url   href: '~1.0.0' }
+617 verbose addNamed [ 'sigmund', '~1.0.0' ]
+618 verbose addNamed [ null, '>=1.0.0- <1.1.0-' ]
+619 silly lockFile 584a4a05-sigmund-1-0-0 sigmund@~1.0.0
+620 verbose lock sigmund@~1.0.0 /Users/Ashton/.npm/584a4a05-sigmund-1-0-0.lock
+621 silly addNameRange { name: 'lru-cache', range: '>=2.0.0- <3.0.0-', hasData: false }
+622 silly addNameRange { name: 'sigmund', range: '>=1.0.0- <1.1.0-', hasData: false }
+623 verbose url raw lru-cache
+624 verbose url resolving [ 'https://registry.npmjs.org/', './lru-cache' ]
+625 verbose url resolved https://registry.npmjs.org/lru-cache
+626 info trying registry request attempt 1 at 00:54:26
+627 verbose etag "E7SY2J9UWX05X920V4Q7K8MC0"
+628 http GET https://registry.npmjs.org/lru-cache
+629 verbose url raw sigmund
+630 verbose url resolving [ 'https://registry.npmjs.org/', './sigmund' ]
+631 verbose url resolved https://registry.npmjs.org/sigmund
+632 info trying registry request attempt 1 at 00:54:26
+633 verbose etag "1RTQTJR3T9DRFKFXA6APQ6OGG"
+634 http GET https://registry.npmjs.org/sigmund
+635 http 304 https://registry.npmjs.org/lru-cache
+636 silly registry.get cb [ 304,
+636 silly registry.get   { date: 'Sat, 22 Feb 2014 05:54:26 GMT',
+636 silly registry.get     server: 'Apache',
+636 silly registry.get     connection: 'Keep-Alive',
+636 silly registry.get     'keep-alive': 'timeout=10, max=50',
+636 silly registry.get     etag: '"E7SY2J9UWX05X920V4Q7K8MC0"',
+636 silly registry.get     'cache-control': 'max-age=1',
+636 silly registry.get     vary: 'Accept' } ]
+637 verbose etag lru-cache from cache
+638 http 304 https://registry.npmjs.org/sigmund
+639 silly registry.get cb [ 304,
+639 silly registry.get   { date: 'Sat, 22 Feb 2014 05:54:26 GMT',
+639 silly registry.get     server: 'Apache',
+639 silly registry.get     connection: 'Keep-Alive',
+639 silly registry.get     'keep-alive': 'timeout=10, max=50',
+639 silly registry.get     etag: '"1RTQTJR3T9DRFKFXA6APQ6OGG"',
+639 silly registry.get     'cache-control': 'max-age=1',
+639 silly registry.get     vary: 'Accept' } ]
+640 verbose etag sigmund from cache
+641 silly addNameRange number 2 { name: 'lru-cache', range: '>=2.0.0- <3.0.0-', hasData: true }
+642 silly addNameRange versions [ 'lru-cache',
+642 silly addNameRange   [ '1.0.1',
+642 silly addNameRange     '1.0.2',
+642 silly addNameRange     '1.0.3',
+642 silly addNameRange     '1.0.4',
+642 silly addNameRange     '1.0.5',
+642 silly addNameRange     '1.0.6',
+642 silly addNameRange     '1.1.0',
+642 silly addNameRange     '1.1.1',
+642 silly addNameRange     '2.0.0',
+642 silly addNameRange     '2.0.1',
+642 silly addNameRange     '2.0.2',
+642 silly addNameRange     '2.0.3',
+642 silly addNameRange     '2.0.4',
+642 silly addNameRange     '2.1.0',
+642 silly addNameRange     '2.2.0',
+642 silly addNameRange     '2.2.1',
+642 silly addNameRange     '2.2.2',
+642 silly addNameRange     '2.2.4',
+642 silly addNameRange     '2.3.0',
+642 silly addNameRange     '2.3.1',
+642 silly addNameRange     '2.5.0' ] ]
+643 verbose addNamed [ 'lru-cache', '2.5.0' ]
+644 verbose addNamed [ '2.5.0', '2.5.0' ]
+645 silly lockFile 30aa630e-lru-cache-2-5-0 lru-cache@2.5.0
+646 verbose lock lru-cache@2.5.0 /Users/Ashton/.npm/30aa630e-lru-cache-2-5-0.lock
+647 silly addNameRange number 2 { name: 'sigmund', range: '>=1.0.0- <1.1.0-', hasData: true }
+648 silly addNameRange versions [ 'sigmund', [ '1.0.0' ] ]
+649 verbose addNamed [ 'sigmund', '1.0.0' ]
+650 verbose addNamed [ '1.0.0', '1.0.0' ]
+651 silly lockFile 7b2d1244-sigmund-1-0-0 sigmund@1.0.0
+652 verbose lock sigmund@1.0.0 /Users/Ashton/.npm/7b2d1244-sigmund-1-0-0.lock
+653 verbose read json /Users/Ashton/.npm/lru-cache/2.5.0/package/package.json
+654 verbose read json /Users/Ashton/.npm/sigmund/1.0.0/package/package.json
+655 silly lockFile 30aa630e-lru-cache-2-5-0 lru-cache@2.5.0
+656 silly lockFile 30aa630e-lru-cache-2-5-0 lru-cache@2.5.0
+657 silly lockFile 7b2d1244-sigmund-1-0-0 sigmund@1.0.0
+658 silly lockFile 7b2d1244-sigmund-1-0-0 sigmund@1.0.0
+659 silly lockFile b4f9d1ff-lru-cache-2 lru-cache@2
+660 silly lockFile b4f9d1ff-lru-cache-2 lru-cache@2
+661 silly lockFile 584a4a05-sigmund-1-0-0 sigmund@~1.0.0
+662 silly lockFile 584a4a05-sigmund-1-0-0 sigmund@~1.0.0
+663 silly resolved [ { name: 'lru-cache',
+663 silly resolved     description: 'A cache object that deletes the least-recently-used items.',
+663 silly resolved     version: '2.5.0',
+663 silly resolved     author: { name: 'Isaac Z. Schlueter', email: 'i@izs.me' },
+663 silly resolved     scripts: { test: 'tap test --gc' },
+663 silly resolved     main: 'lib/lru-cache.js',
+663 silly resolved     repository:
+663 silly resolved      { type: 'git',
+663 silly resolved        url: 'git://github.com/isaacs/node-lru-cache.git' },
+663 silly resolved     devDependencies: { tap: '', weak: '' },
+663 silly resolved     license:
+663 silly resolved      { type: 'MIT',
+663 silly resolved        url: 'http://github.com/isaacs/node-lru-cache/raw/master/LICENSE' },
+663 silly resolved     readme: '# lru cache\n\nA cache object that deletes the least-recently-used items.\n\n## Usage:\n\n```javascript\nvar LRU = require("lru-cache")\n  , options = { max: 500\n              , length: function (n) { return n * 2 }\n              , dispose: function (key, n) { n.close() }\n              , maxAge: 1000 * 60 * 60 }\n  , cache = LRU(options)\n  , otherCache = LRU(50) // sets just the max size\n\ncache.set("key", "value")\ncache.get("key") // "value"\n\ncache.reset()    // empty the cache\n```\n\nIf you put more stuff in it, then items will fall out.\n\nIf you try to put an oversized thing in it, then it\'ll fall out right\naway.\n\n## Options\n\n* `max` The maximum size of the cache, checked by applying the length\n  function to all values in the cache.  Not setting this is kind of\n  silly, since that\'s the whole purpose of this lib, but it defaults\n  to `Infinity`.\n* `maxAge` Maximum age in ms.  Items are not pro-actively pruned out\n  as they age, but if you try to get an item that is too old, it\'ll\n  drop it and return undefined instead of giving it to you.\n* `length` Function that is used to calculate the length of stored\n  items.  If you\'re storing strings or buffers, then you probably want\n  to do something like `function(n){return n.length}`.  The default is\n  `function(n){return 1}`, which is fine if you want to store `n`\n  like-sized things.\n* `dispose` Function that is called on items when they are dropped\n  from the cache.  This can be handy if you want to close file\n  descriptors or do other cleanup tasks when items are no longer\n  accessible.  Called with `key, value`.  It\'s called *before*\n  actually removing the item from the internal cache, so if you want\n  to immediately put it back in, you\'ll have to do that in a\n  `nextTick` or `setTimeout` callback or it won\'t do anything.\n* `stale` By default, if you set a `maxAge`, it\'ll only actually pull\n  stale items out of the cache when you `get(key)`.  (That is, it\'s\n  not pre-emptively doing a `setTimeout` or anything.)  If you set\n  `stale:true`, it\'ll return the stale value before deleting it.  If\n  you don\'t set this, then it\'ll return `undefined` when you try to\n  get a stale entry, as if it had already been deleted.\n\n## API\n\n* `set(key, value)`\n* `get(key) => value`\n\n    Both of these will update the "recently used"-ness of the key.\n    They do what you think.\n\n* `peek(key)`\n\n    Returns the key value (or `undefined` if not found) without\n    updating the "recently used"-ness of the key.\n\n    (If you find yourself using this a lot, you *might* be using the\n    wrong sort of data structure, but there are some use cases where\n    it\'s handy.)\n\n* `del(key)`\n\n    Deletes a key out of the cache.\n\n* `reset()`\n\n    Clear the cache entirely, throwing away all values.\n\n* `has(key)`\n\n    Check if a key is in the cache, without updating the recent-ness\n    or deleting it for being stale.\n\n* `forEach(function(value,key,cache), [thisp])`\n\n    Just like `Array.prototype.forEach`.  Iterates over all the keys\n    in the cache, in order of recent-ness.  (Ie, more recently used\n    items are iterated over first.)\n\n* `keys()`\n\n    Return an array of the keys in the cache.\n\n* `values()`\n\n    Return an array of the values in the cache.\n',
+663 silly resolved     readmeFilename: 'README.md',
+663 silly resolved     _id: 'lru-cache@2.5.0',
+663 silly resolved     _from: 'lru-cache@2' },
+663 silly resolved   { name: 'sigmund',
+663 silly resolved     version: '1.0.0',
+663 silly resolved     description: 'Quick and dirty signatures for Objects.',
+663 silly resolved     main: 'sigmund.js',
+663 silly resolved     directories: { test: 'test' },
+663 silly resolved     dependencies: {},
+663 silly resolved     devDependencies: { tap: '~0.3.0' },
+663 silly resolved     scripts: { test: 'tap test/*.js', bench: 'node bench.js' },
+663 silly resolved     repository: { type: 'git', url: 'git://github.com/isaacs/sigmund' },
+663 silly resolved     keywords: [ 'object', 'signature', 'key', 'data', 'psychoanalysis' ],
+663 silly resolved     author:
+663 silly resolved      { name: 'Isaac Z. Schlueter',
+663 silly resolved        email: 'i@izs.me',
+663 silly resolved        url: 'http://blog.izs.me/' },
+663 silly resolved     license: 'BSD',
+663 silly resolved     readme: '# sigmund\n\nQuick and dirty signatures for Objects.\n\nThis is like a much faster `deepEquals` comparison, which returns a\nstring key suitable for caches and the like.\n\n## Usage\n\n```javascript\nfunction doSomething (someObj) {\n  var key = sigmund(someObj, maxDepth) // max depth defaults to 10\n  var cached = cache.get(key)\n  if (cached) return cached)\n\n  var result = expensiveCalculation(someObj)\n  cache.set(key, result)\n  return result\n}\n```\n\nThe resulting key will be as unique and reproducible as calling\n`JSON.stringify` or `util.inspect` on the object, but is much faster.\nIn order to achieve this speed, some differences are glossed over.\nFor example, the object `{0:\'foo\'}` will be treated identically to the\narray `[\'foo\']`.\n\nAlso, just as there is no way to summon the soul from the scribblings\nof a cocain-addled psychoanalyst, there is no way to revive the object\nfrom the signature string that sigmund gives you.  In fact, it\'s\nbarely even readable.\n\nAs with `sys.inspect` and `JSON.stringify`, larger objects will\nproduce larger signature strings.\n\nBecause sigmund is a bit less strict than the more thorough\nalternatives, the strings will be shorter, and also there is a\nslightly higher chance for collisions.  For example, these objects\nhave the same signature:\n\n    var obj1 = {a:\'b\',c:/def/,g:[\'h\',\'i\',{j:\'\',k:\'l\'}]}\n    var obj2 = {a:\'b\',c:\'/def/\',g:[\'h\',\'i\',\'{jkl\']}\n\nLike a good Freudian, sigmund is most effective when you already have\nsome understanding of what you\'re looking for.  It can help you help\nyourself, but you must be willing to do some work as well.\n\nCycles are handled, and cyclical objects are silently omitted (though\nthe key is included in the signature output.)\n\nThe second argument is the maximum depth, which defaults to 10,\nbecause that is the maximum object traversal depth covered by most\ninsurance carriers.\n',
+663 silly resolved     readmeFilename: 'README.md',
+663 silly resolved     _id: 'sigmund@1.0.0',
+663 silly resolved     _from: 'sigmund@~1.0.0' } ]
+664 info install lru-cache@2.5.0 into /Users/Ashton/Dropbox/freelanceThis/node_modules/coffee-sprites/node_modules/glob/node_modules/minimatch
+665 info install sigmund@1.0.0 into /Users/Ashton/Dropbox/freelanceThis/node_modules/coffee-sprites/node_modules/glob/node_modules/minimatch
+666 info installOne lru-cache@2.5.0
+667 info installOne sigmund@1.0.0
+668 verbose from cache /Users/Ashton/.npm/lru-cache/2.5.0/package/package.json
+669 info /Users/Ashton/Dropbox/freelanceThis/node_modules/coffee-sprites/node_modules/glob/node_modules/minimatch/node_modules/lru-cache unbuild
+670 verbose read json /Users/Ashton/Dropbox/freelanceThis/node_modules/coffee-sprites/node_modules/glob/node_modules/minimatch/node_modules/lru-cache/package.json
+671 verbose from cache /Users/Ashton/.npm/sigmund/1.0.0/package/package.json
+672 info /Users/Ashton/Dropbox/freelanceThis/node_modules/coffee-sprites/node_modules/glob/node_modules/minimatch/node_modules/sigmund unbuild
+673 verbose read json /Users/Ashton/Dropbox/freelanceThis/node_modules/coffee-sprites/node_modules/glob/node_modules/minimatch/node_modules/sigmund/package.json
+674 verbose tar unpack /Users/Ashton/.npm/lru-cache/2.5.0/package.tgz
+675 silly lockFile 8802b895-minimatch-node-modules-lru-cache /Users/Ashton/Dropbox/freelanceThis/node_modules/coffee-sprites/node_modules/glob/node_modules/minimatch/node_modules/lru-cache
+676 verbose lock /Users/Ashton/Dropbox/freelanceThis/node_modules/coffee-sprites/node_modules/glob/node_modules/minimatch/node_modules/lru-cache /Users/Ashton/.npm/8802b895-minimatch-node-modules-lru-cache.lock
+677 silly lockFile 7402081d--npm-lru-cache-2-5-0-package-tgz /Users/Ashton/.npm/lru-cache/2.5.0/package.tgz
+678 verbose lock /Users/Ashton/.npm/lru-cache/2.5.0/package.tgz /Users/Ashton/.npm/7402081d--npm-lru-cache-2-5-0-package-tgz.lock
+679 verbose tar unpack /Users/Ashton/.npm/sigmund/1.0.0/package.tgz
+680 silly lockFile 66014d1d-s-minimatch-node-modules-sigmund /Users/Ashton/Dropbox/freelanceThis/node_modules/coffee-sprites/node_modules/glob/node_modules/minimatch/node_modules/sigmund
+681 verbose lock /Users/Ashton/Dropbox/freelanceThis/node_modules/coffee-sprites/node_modules/glob/node_modules/minimatch/node_modules/sigmund /Users/Ashton/.npm/66014d1d-s-minimatch-node-modules-sigmund.lock
+682 silly lockFile 23e5f791-on-npm-sigmund-1-0-0-package-tgz /Users/Ashton/.npm/sigmund/1.0.0/package.tgz
+683 verbose lock /Users/Ashton/.npm/sigmund/1.0.0/package.tgz /Users/Ashton/.npm/23e5f791-on-npm-sigmund-1-0-0-package-tgz.lock
+684 silly gunzTarPerm modes [ '755', '644' ]
+685 silly gunzTarPerm modes [ '755', '644' ]
+686 silly gunzTarPerm extractEntry package.json
+687 silly gunzTarPerm extractEntry package.json
+688 silly gunzTarPerm extractEntry .npmignore
+689 silly gunzTarPerm extractEntry README.md
+690 silly gunzTarPerm extractEntry README.md
+691 silly gunzTarPerm extractEntry LICENSE
+692 silly gunzTarPerm extractEntry LICENSE
+693 silly gunzTarPerm extractEntry CONTRIBUTORS
+694 silly gunzTarPerm extractEntry bench.js
+695 silly gunzTarPerm extractEntry sigmund.js
+696 silly gunzTarPerm extractEntry lib/lru-cache.js
+697 silly gunzTarPerm extractEntry test/basic.js
+698 silly gunzTarPerm extractEntry test/foreach.js
+699 silly gunzTarPerm extractEntry test/memory-leak.js
+700 silly gunzTarPerm extractEntry test/basic.js
+701 verbose read json /Users/Ashton/Dropbox/freelanceThis/node_modules/coffee-sprites/node_modules/glob/node_modules/minimatch/node_modules/sigmund/package.json
+702 silly lockFile 66014d1d-s-minimatch-node-modules-sigmund /Users/Ashton/Dropbox/freelanceThis/node_modules/coffee-sprites/node_modules/glob/node_modules/minimatch/node_modules/sigmund
+703 silly lockFile 66014d1d-s-minimatch-node-modules-sigmund /Users/Ashton/Dropbox/freelanceThis/node_modules/coffee-sprites/node_modules/glob/node_modules/minimatch/node_modules/sigmund
+704 silly lockFile 23e5f791-on-npm-sigmund-1-0-0-package-tgz /Users/Ashton/.npm/sigmund/1.0.0/package.tgz
+705 silly lockFile 23e5f791-on-npm-sigmund-1-0-0-package-tgz /Users/Ashton/.npm/sigmund/1.0.0/package.tgz
+706 info preinstall sigmund@1.0.0
+707 verbose from cache /Users/Ashton/Dropbox/freelanceThis/node_modules/coffee-sprites/node_modules/glob/node_modules/minimatch/node_modules/sigmund/package.json
+708 verbose readDependencies using package.json deps
+709 verbose from cache /Users/Ashton/Dropbox/freelanceThis/node_modules/coffee-sprites/node_modules/glob/node_modules/minimatch/node_modules/sigmund/package.json
+710 verbose readDependencies using package.json deps
+711 silly resolved []
+712 verbose about to build /Users/Ashton/Dropbox/freelanceThis/node_modules/coffee-sprites/node_modules/glob/node_modules/minimatch/node_modules/sigmund
+713 info build /Users/Ashton/Dropbox/freelanceThis/node_modules/coffee-sprites/node_modules/glob/node_modules/minimatch/node_modules/sigmund
+714 verbose from cache /Users/Ashton/Dropbox/freelanceThis/node_modules/coffee-sprites/node_modules/glob/node_modules/minimatch/node_modules/sigmund/package.json
+715 verbose linkStuff [ false,
+715 verbose linkStuff   false,
+715 verbose linkStuff   false,
+715 verbose linkStuff   '/Users/Ashton/Dropbox/freelanceThis/node_modules/coffee-sprites/node_modules/glob/node_modules/minimatch/node_modules' ]
+716 info linkStuff sigmund@1.0.0
+717 verbose linkBins sigmund@1.0.0
+718 verbose linkMans sigmund@1.0.0
+719 verbose rebuildBundles sigmund@1.0.0
+720 info install sigmund@1.0.0
+721 info postinstall sigmund@1.0.0
+722 verbose read json /Users/Ashton/Dropbox/freelanceThis/node_modules/coffee-sprites/node_modules/glob/node_modules/minimatch/node_modules/lru-cache/package.json
+723 silly lockFile 8802b895-minimatch-node-modules-lru-cache /Users/Ashton/Dropbox/freelanceThis/node_modules/coffee-sprites/node_modules/glob/node_modules/minimatch/node_modules/lru-cache
+724 silly lockFile 8802b895-minimatch-node-modules-lru-cache /Users/Ashton/Dropbox/freelanceThis/node_modules/coffee-sprites/node_modules/glob/node_modules/minimatch/node_modules/lru-cache
+725 silly lockFile 7402081d--npm-lru-cache-2-5-0-package-tgz /Users/Ashton/.npm/lru-cache/2.5.0/package.tgz
+726 silly lockFile 7402081d--npm-lru-cache-2-5-0-package-tgz /Users/Ashton/.npm/lru-cache/2.5.0/package.tgz
+727 info preinstall lru-cache@2.5.0
+728 verbose from cache /Users/Ashton/Dropbox/freelanceThis/node_modules/coffee-sprites/node_modules/glob/node_modules/minimatch/node_modules/lru-cache/package.json
+729 verbose readDependencies using package.json deps
+730 verbose from cache /Users/Ashton/Dropbox/freelanceThis/node_modules/coffee-sprites/node_modules/glob/node_modules/minimatch/node_modules/lru-cache/package.json
+731 verbose readDependencies using package.json deps
+732 silly resolved []
+733 verbose about to build /Users/Ashton/Dropbox/freelanceThis/node_modules/coffee-sprites/node_modules/glob/node_modules/minimatch/node_modules/lru-cache
+734 info build /Users/Ashton/Dropbox/freelanceThis/node_modules/coffee-sprites/node_modules/glob/node_modules/minimatch/node_modules/lru-cache
+735 verbose from cache /Users/Ashton/Dropbox/freelanceThis/node_modules/coffee-sprites/node_modules/glob/node_modules/minimatch/node_modules/lru-cache/package.json
+736 verbose linkStuff [ false,
+736 verbose linkStuff   false,
+736 verbose linkStuff   false,
+736 verbose linkStuff   '/Users/Ashton/Dropbox/freelanceThis/node_modules/coffee-sprites/node_modules/glob/node_modules/minimatch/node_modules' ]
+737 info linkStuff lru-cache@2.5.0
+738 verbose linkBins lru-cache@2.5.0
+739 verbose linkMans lru-cache@2.5.0
+740 verbose rebuildBundles lru-cache@2.5.0
+741 info install lru-cache@2.5.0
+742 info postinstall lru-cache@2.5.0
+743 verbose about to build /Users/Ashton/Dropbox/freelanceThis/node_modules/coffee-sprites/node_modules/glob/node_modules/minimatch
+744 info build /Users/Ashton/Dropbox/freelanceThis/node_modules/coffee-sprites/node_modules/glob/node_modules/minimatch
+745 verbose from cache /Users/Ashton/Dropbox/freelanceThis/node_modules/coffee-sprites/node_modules/glob/node_modules/minimatch/package.json
+746 verbose linkStuff [ false,
+746 verbose linkStuff   false,
+746 verbose linkStuff   false,
+746 verbose linkStuff   '/Users/Ashton/Dropbox/freelanceThis/node_modules/coffee-sprites/node_modules/glob/node_modules' ]
+747 info linkStuff minimatch@0.2.14
+748 verbose linkBins minimatch@0.2.14
+749 verbose linkMans minimatch@0.2.14
+750 verbose rebuildBundles minimatch@0.2.14
+751 verbose rebuildBundles [ 'lru-cache', 'sigmund' ]
+752 info install minimatch@0.2.14
+753 info postinstall minimatch@0.2.14
+754 verbose about to build /Users/Ashton/Dropbox/freelanceThis/node_modules/coffee-sprites/node_modules/glob
+755 info build /Users/Ashton/Dropbox/freelanceThis/node_modules/coffee-sprites/node_modules/glob
+756 verbose from cache /Users/Ashton/Dropbox/freelanceThis/node_modules/coffee-sprites/node_modules/glob/package.json
+757 verbose linkStuff [ false,
+757 verbose linkStuff   false,
+757 verbose linkStuff   false,
+757 verbose linkStuff   '/Users/Ashton/Dropbox/freelanceThis/node_modules/coffee-sprites/node_modules' ]
+758 info linkStuff glob@3.2.8
+759 verbose linkBins glob@3.2.8
+760 verbose linkMans glob@3.2.8
+761 verbose rebuildBundles glob@3.2.8
+762 verbose rebuildBundles [ 'inherits', 'minimatch' ]
+763 info install glob@3.2.8
+764 info postinstall glob@3.2.8
+765 info node-gd@0.2.3 Failed to exec install script
+766 info /Users/Ashton/Dropbox/freelanceThis/node_modules/coffee-sprites/node_modules/node-gd unbuild
+767 verbose from cache /Users/Ashton/Dropbox/freelanceThis/node_modules/coffee-sprites/node_modules/node-gd/package.json
+768 info preuninstall node-gd@0.2.3
+769 info uninstall node-gd@0.2.3
+770 verbose false,/Users/Ashton/Dropbox/freelanceThis/node_modules,/Users/Ashton/Dropbox/freelanceThis/node_modules/coffee-sprites/node_modules unbuild node-gd@0.2.3
+771 info postuninstall node-gd@0.2.3
+772 verbose about to build /Users/Ashton/Dropbox/freelanceThis/node_modules/coffee-sprites
+773 info /Users/Ashton/Dropbox/freelanceThis/node_modules/coffee-sprites unbuild
+774 verbose from cache /Users/Ashton/Dropbox/freelanceThis/node_modules/coffee-sprites/package.json
+775 info preuninstall coffee-sprites@0.0.8
+776 info uninstall coffee-sprites@0.0.8
+777 verbose true,/Users/Ashton/Dropbox/freelanceThis/node_modules,/Users/Ashton/Dropbox/freelanceThis/node_modules unbuild coffee-sprites@0.0.8
+778 info postuninstall coffee-sprites@0.0.8
+779 error node-gd@0.2.3 install: `node-gyp rebuild`
+779 error `sh "-c" "node-gyp rebuild"` failed with 1
+780 error Failed at the node-gd@0.2.3 install script.
+780 error This is most likely a problem with the node-gd package,
+780 error not with npm itself.
+780 error Tell the author that this fails on your system:
+780 error     node-gyp rebuild
+780 error You can get their info via:
+780 error     npm owner ls node-gd
+780 error There is likely additional logging output above.
+781 error System Darwin 13.0.0
+782 error command "/usr/local/Cellar/node/0.10.5/bin/node" "/usr/local/bin/npm" "install" "coffee-sprites"
+783 error cwd /Users/Ashton/Dropbox/freelanceThis
+784 error node -v v0.10.5
+785 error npm -v 1.2.18
+786 error code ELIFECYCLE
+787 verbose exit [ 1, true ]
