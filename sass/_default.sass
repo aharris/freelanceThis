@@ -1,11 +1,61 @@
 body
-  background: $background-color
+  background: $white-1
+  color: $gray-4
 
 header
-  background: $header-bg-color
-  color: $header-font-color
+  // background: $header-bg-color
+  color: $gray-4
+  padding: 1em
+  +box-sizing(border-box)
+  border-bottom: 1px solid $gray-2
 
-h1
+
+.nav-icon
+  display: block
+
+header
+  +display-box
+  +box-orient(horizontal)
+  +box-align(stretch)
+  justify-content: space-between
+  flex-wrap: nowrap
+  display: inline-flex
+  width: 100%
+  align-items: center
+.logo
+  +box-flex(4)
   margin: 0
-  padding: .5em 10px 2em
   +border-radius(5px)
+  text-align: center
+  overflow: hidden
+  white-space: nowrap
+  text-overflow: ellipsis
+  padding: 0 1em
+.nav-icon
+  +box-flex(1)
+  min-width: 30px
+.display-style
+  +box-flex(2)
+  text-align: center
+  min-width: 60px
+  background: $clouds
+  padding: 0.375em
+  +border-radius(5px)
+
+.list-icon, .block-icon
+  +inline-block
+  margin: 0 0.4em
+
+.nav
+  width: 90%
+  position: absolute
+  -webkit-transform: translate3d(-100%,0,0)
+  -webkit-transition: all 400ms
+
+.main-content
+  -webkit-transform: translate3d(0,0,0)
+  -webkit-transition: all 400ms
+
+.menu
+  .main-content
+    -webkit-transform: translate3d(90%,0,0)

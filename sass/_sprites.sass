@@ -1,0 +1,27 @@
+$sprites2x: sprite-map("sprites-retina/*.png", $position: 100%, $spacing: 2px)
+
+$sprites: sprite-map("sprites/*.png", $position: 100%, $spacing: 2px)
+
+.nav-icon
+  background: sprite($sprites, nav_icon, 0, 0) no-repeat
+.nav-icon
+  +retina-sprite(nav_icon)
+
+.list-icon
+  background: sprite($sprites, list_icon, 0, 0) no-repeat
+.list-icon
+  +retina-sprite(list_icon)
+
+.block-icon
+  background: sprite($sprites, block_icon, 0, 0) no-repeat
+.block-icon
+  +retina-sprite(block_icon)
+
+// Reference -----------
+// .nav-icon {
+//     @include retina-sprite(nav_icon, $hover: true, $active: true);    // imports signIn.png, signIn_hover.png, and signIn_active.png
+// }
+
+// .myHoverButton {
+//    @include retina-sprite(signIn, $hover: true);                    // imports signIn.png and signIn_hover.png
+// }

@@ -1,19 +1,33 @@
 (function ($) {
 
+  $().ready( function () {
+    toggleMenu();
+    updateMenu();
+    updateSameRouteMenu();
+  })
+
+  function updateSameRouteMenu(){
+    // if(Backbone.history.location.hash)
+    $( ".nav a" ).click(function(event) {
+      if ($(this).attr("href") === Backbone.history.location.hash)
+        $('body').removeClass('menu');
+    });
+  }
+
+  function updateMenu() {
+    if ($( "body" ).hasClass( "menu" )) {
+      $('body').removeClass('menu');
+    }
+  }
+
+  function toggleMenu() {
+    $( ".nav-icon" ).click(function(event) {
+      event.preventDefault();
+      $('body').toggleClass('menu');
+    });
+  }
+
   var FT = FT || {};
-
-//GET TEMPLATE
-// FT.getTemplate = function () {
-//   $.ajax({
-//     url: '../templates/header.js',
-//     method: 'GET',
-//     async: false,
-//     success: function(tmpl) {
-//       tmplString = data;
-//     }
-//   });
-
-// };
 
 
 //RENDER ----------------------------------
@@ -24,13 +38,14 @@ FT.Render = function (el, template, data) {
   var tmpl = doT.template(tmplString);
   var text = tmpl(data);
   this.$el.html(text);
+  updateMenu();
 };
 
 //ROUTER ----------------------------------
 FT.Router = Backbone.Router.extend({
   routes: {
     '' : 'home',
-    "/": 'home',
+    "home": 'home',
     'about' : 'about',
     'contact' : 'contact',
     'client' : 'client'
@@ -77,7 +92,7 @@ FT.Header = Backbone.View.extend({
   initialize: function () {
     // this.friends = new Friends( null, { view: this });
     var data = {
-      "logo": "Business Logo"
+      "logo": "Business Logo Logo Logo Logo Logo Logo"
     };
     var tmplString = $('#header').text();
     var tmpl = doT.template(tmplString);
@@ -98,6 +113,6 @@ FT.Nav = Backbone.View.extend({
 });
 
 var header = new FT.Header(),
-  nav = new FT.Nav();
+nav = new FT.Nav();
 
 })(jQuery);
