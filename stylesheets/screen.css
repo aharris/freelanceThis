@@ -247,16 +247,16 @@ table {
 
 /* line 1, ../sass/_default.sass */
 body {
-  background: background-color;
+  background: #ecf0f1;
 }
 
-/* line 5, ../sass/_default.sass */
+/* line 4, ../sass/_default.sass */
 header {
-  background: silver;
+  background: #bdc3c7;
   color: white;
 }
 
-/* line 9, ../sass/_default.sass */
+/* line 8, ../sass/_default.sass */
 h1 {
   margin: 0;
   padding: 0.5em 10px 2em;
